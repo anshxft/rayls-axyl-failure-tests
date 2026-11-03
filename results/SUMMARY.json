@@ -1,0 +1,129 @@
+{
+ "A_control": {
+  "payments": 90,
+  "settled": 90,
+  "median_s": 1.055
+ },
+ "B_one_down": {
+  "runs": 3,
+  "longest_stall_s": 1.3,
+  "before": {
+   "payments": 30,
+   "settled": 30,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.029,
+   "max_s": 1.656
+  },
+  "during": {
+   "payments": 60,
+   "settled": 60,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.039,
+   "max_s": 2.628
+  },
+  "after": {
+   "payments": 30,
+   "settled": 30,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.164,
+   "max_s": 3.764
+  }
+ },
+ "C_author_down": {
+  "runs": 3,
+  "longest_stall_s": 2.58,
+  "before": {
+   "payments": 30,
+   "settled": 30,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.045,
+   "max_s": 2.802
+  },
+  "during": {
+   "payments": 60,
+   "settled": 60,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.136,
+   "max_s": 3.631
+  },
+  "after": {
+   "payments": 30,
+   "settled": 30,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.288,
+   "max_s": 3.983
+  }
+ },
+ "DE_quorum_lost": {
+  "runs": 3,
+  "stalls_s": [
+   61.8,
+   67.47,
+   67.39
+  ],
+  "height_at_kill_vs_restart": [
+   [
+    162,
+    163
+   ],
+   [
+    175,
+    176
+   ],
+   [
+    164,
+    164
+   ]
+  ],
+  "before": {
+   "payments": 30,
+   "settled": 30,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 0.943,
+   "max_s": 2.382
+  },
+  "during": {
+   "payments": 45,
+   "settled": 45,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 39.639,
+   "max_s": 69.112
+  },
+  "after": {
+   "payments": 45,
+   "settled": 45,
+   "rejected_at_submit": 0,
+   "median_of_run_medians_s": 1.145,
+   "max_s": 7.366
+  }
+ },
+ "F_conflict": {
+  "trials": 24,
+  "A": 12,
+  "B": 12,
+  "both": 0,
+  "both_acked_at_submit": 24,
+  "balance_exact": 24
+ },
+ "G_testnet": {
+  "payments": 150,
+  "settled": 150,
+  "median_s": 2.44,
+  "p95_s": 3.28,
+  "min_s": 1.55,
+  "max_s": 3.78,
+  "under_1s": 0,
+  "rpc_rtt_median_s": 0.397,
+  "median_minus_one_rtt_s": 2.05,
+  "new_head_gap_median_s": 0.48
+ },
+ "restart": {
+  "trials": 8,
+  "match": 8,
+  "downtimes_s": [
+   10,
+   120,
+   600
+  ]
+ }
+}

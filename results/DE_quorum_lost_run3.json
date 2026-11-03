@@ -1,0 +1,4307 @@
+{
+ "label": "DE_quorum_lost_run3",
+ "n": 40,
+ "gap_s": 2.0,
+ "submit_node": "http://127.0.0.1:8544",
+ "created": 1793715445.3297985,
+ "events": [
+  {
+   "before_payment": 10,
+   "t": 1793715352.2774792,
+   "note": [
+    "killed validator index 0",
+    "killed validator index 2"
+   ]
+  },
+  {
+   "before_payment": 25,
+   "t": 1793715411.129782,
+   "note": [
+    "restart requested for validator index 0",
+    "restart requested for validator index 2"
+   ]
+  }
+ ],
+ "records": [
+  {
+   "i": 0,
+   "hash": "0xb6f7b6432f2389cdc334fac9b9f84c4888e9b31c3bbcb46c956a1567fc38187d",
+   "nonce": 2,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715332.719822,
+     "block": 127,
+     "block_hash": "0x58054809c6cb2ffcc135886cfa7b13ed7fccb2f6c62034658a155130d6d0247e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 127
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715332.7266653,
+     "block": 127,
+     "block_hash": "0x58054809c6cb2ffcc135886cfa7b13ed7fccb2f6c62034658a155130d6d0247e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 127
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715332.7307868,
+     "block": 127,
+     "block_hash": "0x58054809c6cb2ffcc135886cfa7b13ed7fccb2f6c62034658a155130d6d0247e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 127
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715332.837473,
+     "block": 127,
+     "block_hash": "0x58054809c6cb2ffcc135886cfa7b13ed7fccb2f6c62034658a155130d6d0247e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 127
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715331.8742063,
+   "ack": "0xb6f7b6432f2389cdc334fac9b9f84c4888e9b31c3bbcb46c956a1567fc38187d",
+   "t_ack": 1793715331.8812785
+  },
+  {
+   "i": 1,
+   "hash": "0xfdfbea911ea2858c7c0659ca798ad5fe9c93dcc52bd285f721984128e0ac5197",
+   "nonce": 3,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715334.86047,
+     "block": 132,
+     "block_hash": "0x67fa25a35692a95486e499451c9ca016c4ac9921483673765bda32925540e9b0",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 132
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715334.8936055,
+     "block": 132,
+     "block_hash": "0x67fa25a35692a95486e499451c9ca016c4ac9921483673765bda32925540e9b0",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 132
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715334.928954,
+     "block": 132,
+     "block_hash": "0x67fa25a35692a95486e499451c9ca016c4ac9921483673765bda32925540e9b0",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 132
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715334.9463222,
+     "block": 132,
+     "block_hash": "0x67fa25a35692a95486e499451c9ca016c4ac9921483673765bda32925540e9b0",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 132
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715333.9180653,
+   "ack": "0xfdfbea911ea2858c7c0659ca798ad5fe9c93dcc52bd285f721984128e0ac5197",
+   "t_ack": 1793715333.9231596
+  },
+  {
+   "i": 2,
+   "hash": "0x52201e047cde2d05a85d81ce90dff8920c5df9c74b0f9fe01ed0cd3eef0c5150",
+   "nonce": 4,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715337.149056,
+     "block": 136,
+     "block_hash": "0xea227d7f51f60302137354cfa710a503c7dd7dc0ff48c3950b19afca00cbee2a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 136
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715337.1686296,
+     "block": 136,
+     "block_hash": "0xea227d7f51f60302137354cfa710a503c7dd7dc0ff48c3950b19afca00cbee2a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 136
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715337.2066567,
+     "block": 136,
+     "block_hash": "0xea227d7f51f60302137354cfa710a503c7dd7dc0ff48c3950b19afca00cbee2a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 136
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715337.3040493,
+     "block": 136,
+     "block_hash": "0xea227d7f51f60302137354cfa710a503c7dd7dc0ff48c3950b19afca00cbee2a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 136
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715335.9538252,
+   "ack": "0x52201e047cde2d05a85d81ce90dff8920c5df9c74b0f9fe01ed0cd3eef0c5150",
+   "t_ack": 1793715335.9579356
+  },
+  {
+   "i": 3,
+   "hash": "0xc5841c29db5e4cca2e5bc9f27bdd64d83bfbddd652ecb68e40d01d30d66f8561",
+   "nonce": 5,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715338.80039,
+     "block": 139,
+     "block_hash": "0x7aadd1c3bc82f890f280080ada51286b72511e1dd66ccac5b0ac5d721f407d15",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 139
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715338.8454442,
+     "block": 139,
+     "block_hash": "0x7aadd1c3bc82f890f280080ada51286b72511e1dd66ccac5b0ac5d721f407d15",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 139
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715338.8510196,
+     "block": 139,
+     "block_hash": "0x7aadd1c3bc82f890f280080ada51286b72511e1dd66ccac5b0ac5d721f407d15",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 139
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715338.8521018,
+     "block": 139,
+     "block_hash": "0x7aadd1c3bc82f890f280080ada51286b72511e1dd66ccac5b0ac5d721f407d15",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 139
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715337.9929779,
+   "ack": "0xc5841c29db5e4cca2e5bc9f27bdd64d83bfbddd652ecb68e40d01d30d66f8561",
+   "t_ack": 1793715338.001912
+  },
+  {
+   "i": 4,
+   "hash": "0xe254e7e981554d98ed98e1f179545187178b3fc0070d6db0c75d3ebf7efe1b1a",
+   "nonce": 6,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715341.5190938,
+     "block": 144,
+     "block_hash": "0xbbff5a3734c225bffa41aee3081cf567dfd1037ddeaf8e1d142b567b20343525",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 144
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715341.550274,
+     "block": 144,
+     "block_hash": "0xbbff5a3734c225bffa41aee3081cf567dfd1037ddeaf8e1d142b567b20343525",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 144
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715341.582758,
+     "block": 144,
+     "block_hash": "0xbbff5a3734c225bffa41aee3081cf567dfd1037ddeaf8e1d142b567b20343525",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 144
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715341.6576445,
+     "block": 144,
+     "block_hash": "0xbbff5a3734c225bffa41aee3081cf567dfd1037ddeaf8e1d142b567b20343525",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 144
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715340.0448864,
+   "ack": "0xe254e7e981554d98ed98e1f179545187178b3fc0070d6db0c75d3ebf7efe1b1a",
+   "t_ack": 1793715340.0479286
+  },
+  {
+   "i": 5,
+   "hash": "0xb3a4f5f6040d2058aa974f600eb440e857fcfbf2328543e5f7fe0f4d70441ce7",
+   "nonce": 7,
+   "per_node": {
+    "http://127.0.0.1:8544": {
+     "t": 1793715343.1924253,
+     "block": 147,
+     "block_hash": "0xe029f9d0d2042e1a8918a2ee2147813e73bcfebbecc941b0f96ddfaf8f86144e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 147
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715343.2055438,
+     "block": 147,
+     "block_hash": "0xe029f9d0d2042e1a8918a2ee2147813e73bcfebbecc941b0f96ddfaf8f86144e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 147
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715343.2106078,
+     "block": 147,
+     "block_hash": "0xe029f9d0d2042e1a8918a2ee2147813e73bcfebbecc941b0f96ddfaf8f86144e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 147
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715343.321628,
+     "block": 147,
+     "block_hash": "0xe029f9d0d2042e1a8918a2ee2147813e73bcfebbecc941b0f96ddfaf8f86144e",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 147
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715342.076684,
+   "ack": "0xb3a4f5f6040d2058aa974f600eb440e857fcfbf2328543e5f7fe0f4d70441ce7",
+   "t_ack": 1793715342.089518
+  },
+  {
+   "i": 6,
+   "hash": "0x0ad73683fe6087b147c35515a04c5a1eb55078c882054d2a091a0b5ace868537",
+   "nonce": 8,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715344.806987,
+     "block": 150,
+     "block_hash": "0xc6b457b5941d4b840c13c53869b7c34fd56fe9e0975888b2f46b21fd3965f918",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 150
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715344.8168578,
+     "block": 150,
+     "block_hash": "0xc6b457b5941d4b840c13c53869b7c34fd56fe9e0975888b2f46b21fd3965f918",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 150
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715344.8881924,
+     "block": 150,
+     "block_hash": "0xc6b457b5941d4b840c13c53869b7c34fd56fe9e0975888b2f46b21fd3965f918",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 150
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715344.9643097,
+     "block": 150,
+     "block_hash": "0xc6b457b5941d4b840c13c53869b7c34fd56fe9e0975888b2f46b21fd3965f918",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 150
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715344.1374598,
+   "ack": "0x0ad73683fe6087b147c35515a04c5a1eb55078c882054d2a091a0b5ace868537",
+   "t_ack": 1793715344.1427538
+  },
+  {
+   "i": 7,
+   "hash": "0x45910b08ee27625b1952ec4b4a7254486211a85777c036a51aad516dd58cabb0",
+   "nonce": 9,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715346.7767017,
+     "block": 154,
+     "block_hash": "0x67bf4a75bfa0587798114f09388bb1fc947b6d00641b2a5e2e233a79833369c5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 154
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715346.7843525,
+     "block": 154,
+     "block_hash": "0x67bf4a75bfa0587798114f09388bb1fc947b6d00641b2a5e2e233a79833369c5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 154
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715346.8208117,
+     "block": 154,
+     "block_hash": "0x67bf4a75bfa0587798114f09388bb1fc947b6d00641b2a5e2e233a79833369c5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 154
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715346.8626752,
+     "block": 154,
+     "block_hash": "0x67bf4a75bfa0587798114f09388bb1fc947b6d00641b2a5e2e233a79833369c5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 154
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715346.1642957,
+   "ack": "0x45910b08ee27625b1952ec4b4a7254486211a85777c036a51aad516dd58cabb0",
+   "t_ack": 1793715346.183992
+  },
+  {
+   "i": 8,
+   "hash": "0x38e39ac64e3c19936c56ccdc1ca4afa3b34a3219327fdca2c43d84232e5adb3f",
+   "nonce": 10,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715348.9554229,
+     "block": 158,
+     "block_hash": "0x0135945672580b1162eec21fda87af5642db90582612afd438f03965102f1264",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 158
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715349.017941,
+     "block": 158,
+     "block_hash": "0x0135945672580b1162eec21fda87af5642db90582612afd438f03965102f1264",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 158
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715349.0294437,
+     "block": 158,
+     "block_hash": "0x0135945672580b1162eec21fda87af5642db90582612afd438f03965102f1264",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 158
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715349.0825198,
+     "block": 158,
+     "block_hash": "0x0135945672580b1162eec21fda87af5642db90582612afd438f03965102f1264",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 158
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715348.211435,
+   "ack": "0x38e39ac64e3c19936c56ccdc1ca4afa3b34a3219327fdca2c43d84232e5adb3f",
+   "t_ack": 1793715348.2161806
+  },
+  {
+   "i": 9,
+   "hash": "0x3e9936505aa0ceee671ec134ea1c5d11d56f1fd96797feac852c0c76ceeda2b1",
+   "nonce": 11,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715351.130959,
+     "block": 162,
+     "block_hash": "0x88e56896c7b8385bf3dc52c86e4c833cffb9d65f30537a5ed4e9f33190a82f4d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 162
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715351.1299453,
+     "block": 162,
+     "block_hash": "0x88e56896c7b8385bf3dc52c86e4c833cffb9d65f30537a5ed4e9f33190a82f4d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 162
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715351.1643305,
+     "block": 162,
+     "block_hash": "0x88e56896c7b8385bf3dc52c86e4c833cffb9d65f30537a5ed4e9f33190a82f4d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 162
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715351.2364252,
+     "block": 162,
+     "block_hash": "0x88e56896c7b8385bf3dc52c86e4c833cffb9d65f30537a5ed4e9f33190a82f4d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 162
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715350.2650242,
+   "ack": "0x3e9936505aa0ceee671ec134ea1c5d11d56f1fd96797feac852c0c76ceeda2b1",
+   "t_ack": 1793715350.2706304
+  },
+  {
+   "i": 10,
+   "hash": "0x4ef70dd12b08d380c1813842a274c4be792b94147a030d5417007a515f6c97c1",
+   "nonce": 12,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.596629,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.6006656,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.6031818,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7237928,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715352.5895379,
+   "ack": "0x4ef70dd12b08d380c1813842a274c4be792b94147a030d5417007a515f6c97c1",
+   "t_ack": 1793715352.593038
+  },
+  {
+   "i": 11,
+   "hash": "0x3f6f4291550f4e843701282d6fcc2ec6765784a4e617d89008a00c7325527ef9",
+   "nonce": 13,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.4866612,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 1,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5413988,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 1,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5961037,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 1,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.6540534,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 1,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715356.6170418,
+   "ack": "0x3f6f4291550f4e843701282d6fcc2ec6765784a4e617d89008a00c7325527ef9",
+   "t_ack": 1793715356.6210825
+  },
+  {
+   "i": 12,
+   "hash": "0xaeed414a4b2bdabe3ad70d004b3cb21dc455a80e7e45db4c3a841c7068b0de4b",
+   "nonce": 14,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.5219095,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 2,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.6202724,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 2,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.6350071,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 2,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.6610744,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 2,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715360.6482675,
+   "ack": "0xaeed414a4b2bdabe3ad70d004b3cb21dc455a80e7e45db4c3a841c7068b0de4b",
+   "t_ack": 1793715360.654024
+  },
+  {
+   "i": 13,
+   "hash": "0x794e4840ea1600cfdd73007d4a819f886c6adf8736b3d7edb5282971fc25950c",
+   "nonce": 15,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5121896,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 3,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.519411,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 3,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5523074,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 3,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7419064,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 3,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715364.6851974,
+   "ack": "0x794e4840ea1600cfdd73007d4a819f886c6adf8736b3d7edb5282971fc25950c",
+   "t_ack": 1793715364.6911964
+  },
+  {
+   "i": 14,
+   "hash": "0x762f5d85e5e4b2128b6eb4d23cc4fa650274cb533c81ac3013ccb0dabbe11def",
+   "nonce": 16,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.6202724,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 4,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.6217802,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 4,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.6449983,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 4,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.6475787,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 4,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715368.7226095,
+   "ack": "0x762f5d85e5e4b2128b6eb4d23cc4fa650274cb533c81ac3013ccb0dabbe11def",
+   "t_ack": 1793715368.7278576
+  },
+  {
+   "i": 15,
+   "hash": "0x362d66e33b6821608ebd9fabaeb62b38ae502c94803045cc33e350b18d2c2dbd",
+   "nonce": 17,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5152218,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 5,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.554315,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 5,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5909858,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 5,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.6824288,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 5,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715372.7481287,
+   "ack": "0x362d66e33b6821608ebd9fabaeb62b38ae502c94803045cc33e350b18d2c2dbd",
+   "t_ack": 1793715372.7552752
+  },
+  {
+   "i": 16,
+   "hash": "0x54a00b45fd33a3ca5802e3a8bc1bb6c39acd6d2b3abb47e4179467d98582c02d",
+   "nonce": 18,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.519411,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 6,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.5503051,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 6,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.6475787,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 6,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7388232,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 6,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715376.7801616,
+   "ack": "0x54a00b45fd33a3ca5802e3a8bc1bb6c39acd6d2b3abb47e4179467d98582c02d",
+   "t_ack": 1793715376.784021
+  },
+  {
+   "i": 17,
+   "hash": "0x71c3783d7c9e1a833b85e6d535de3a5dc890ecfd57f0fb074f028846c30ff1cf",
+   "nonce": 19,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.4420547,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 7,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5981483,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 7,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.6530635,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 7,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7353058,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 7,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715380.8025894,
+   "ack": "0x71c3783d7c9e1a833b85e6d535de3a5dc890ecfd57f0fb074f028846c30ff1cf",
+   "t_ack": 1793715380.8115377
+  },
+  {
+   "i": 18,
+   "hash": "0x9410fd3ceb96d3617f8e1d05415829ee76f863e601e31b0368ebf66eb3288c77",
+   "nonce": 20,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.4714534,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 8,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5936322,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 8,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.6385875,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 8,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.698882,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 8,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715384.8446755,
+   "ack": "0x9410fd3ceb96d3617f8e1d05415829ee76f863e601e31b0368ebf66eb3288c77",
+   "t_ack": 1793715384.8486733
+  },
+  {
+   "i": 19,
+   "hash": "0x7c024d4dc0579c472c2de4ea2eb64952f86f8328064673a401bacf9d215cc3e6",
+   "nonce": 21,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.510192,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 9,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.514705,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 9,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.6165316,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 9,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7353058,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 9,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715388.8881023,
+   "ack": "0x7c024d4dc0579c472c2de4ea2eb64952f86f8328064673a401bacf9d215cc3e6",
+   "t_ack": 1793715388.8964345
+  },
+  {
+   "i": 20,
+   "hash": "0x607c70433f6e62209ad0491400c40e296d76487d08edd74a2e606a97428720fa",
+   "nonce": 22,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5011787,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 10,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.6202724,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 10,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.6434803,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 10,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.6520436,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 10,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715392.919284,
+   "ack": "0x607c70433f6e62209ad0491400c40e296d76487d08edd74a2e606a97428720fa",
+   "t_ack": 1793715392.9317305
+  },
+  {
+   "i": 21,
+   "hash": "0x73e2c18a826d293668cda7e145bef5f207c9819552098476f278501b8c1d36ab",
+   "nonce": 23,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.502689,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 11,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.624822,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 11,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.6264126,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 11,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.646521,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 11,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715396.9758024,
+   "ack": "0x73e2c18a826d293668cda7e145bef5f207c9819552098476f278501b8c1d36ab",
+   "t_ack": 1793715396.983958
+  },
+  {
+   "i": 22,
+   "hash": "0x1d8a16dceea0cdd3aa8ac8dc175e2f9d141c718c407219922190e45df24e009b",
+   "nonce": 24,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5582724,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 12,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5981483,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 12,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.6073587,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 12,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.6550732,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 12,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715401.0217462,
+   "ack": "0x1d8a16dceea0cdd3aa8ac8dc175e2f9d141c718c407219922190e45df24e009b",
+   "t_ack": 1793715401.0301201
+  },
+  {
+   "i": 23,
+   "hash": "0x07bd36e12f33cbf2f5334a63015cd0c5335d10208884bc61191465541b89c2d5",
+   "nonce": 25,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.5172358,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 13,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5330815,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 13,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.615019,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 13,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7312973,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 13,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715405.0573962,
+   "ack": "0x07bd36e12f33cbf2f5334a63015cd0c5335d10208884bc61191465541b89c2d5",
+   "t_ack": 1793715405.0679426
+  },
+  {
+   "i": 24,
+   "hash": "0xfb33373430ab96e7f1e882e7a3839ce0aeafab1c2b227f66f19d0f8c86f3e319",
+   "nonce": 26,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5795195,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 14,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.634012,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 14,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.642972,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 14,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.727665,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 14,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715409.1053247,
+   "ack": "0xfb33373430ab96e7f1e882e7a3839ce0aeafab1c2b227f66f19d0f8c86f3e319",
+   "t_ack": 1793715409.125301
+  },
+  {
+   "i": 25,
+   "hash": "0xd5c47e95909e4b89914d69e907800fda4bbeb41705524528b3eb08b78eb41f25",
+   "nonce": 27,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.5172358,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 15,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5450351,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 15,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.591505,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 15,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7209961,
+     "block": 166,
+     "block_hash": "0x4ca77da524b50e28f6fb435cfdfdf11ab986157338ccf7d9c1e9ae9688eaad74",
+     "status": 1,
+     "tx_index": 15,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    false,
+    true,
+    false,
+    true
+   ],
+   "t_submit": 1793715413.7012317,
+   "ack": "0xd5c47e95909e4b89914d69e907800fda4bbeb41705524528b3eb08b78eb41f25",
+   "t_ack": 1793715413.723182
+  },
+  {
+   "i": 26,
+   "hash": "0x389efc8a8261b102a6fb38367ee74dce8dc10b6bf737258a5c7c715af10d6302",
+   "nonce": 28,
+   "per_node": {
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.5611901,
+     "block": 167,
+     "block_hash": "0x923ec8fa97daa13eaf20db024d6ebf1b07c7ffa3ae41a3b92d20cc0bca17e709",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.5854783,
+     "block": 167,
+     "block_hash": "0x923ec8fa97daa13eaf20db024d6ebf1b07c7ffa3ae41a3b92d20cc0bca17e709",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.5899458,
+     "block": 167,
+     "block_hash": "0x923ec8fa97daa13eaf20db024d6ebf1b07c7ffa3ae41a3b92d20cc0bca17e709",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.7257948,
+     "block": 167,
+     "block_hash": "0x923ec8fa97daa13eaf20db024d6ebf1b07c7ffa3ae41a3b92d20cc0bca17e709",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715415.9848113,
+   "ack": "0x389efc8a8261b102a6fb38367ee74dce8dc10b6bf737258a5c7c715af10d6302",
+   "t_ack": 1793715416.0581062
+  },
+  {
+   "i": 27,
+   "hash": "0x0f0151611babf34d7ba2cc75ac308c3f018fe175945298a103ec219be951f4a1",
+   "nonce": 29,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715420.510192,
+     "block": 168,
+     "block_hash": "0x58d7e5df8eeae70159221d4ae5566b6288d07091a4ccc16326fcdf65e82cc0ae",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715420.513677,
+     "block": 168,
+     "block_hash": "0x58d7e5df8eeae70159221d4ae5566b6288d07091a4ccc16326fcdf65e82cc0ae",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715420.5152218,
+     "block": 168,
+     "block_hash": "0x58d7e5df8eeae70159221d4ae5566b6288d07091a4ccc16326fcdf65e82cc0ae",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715420.684721,
+     "block": 168,
+     "block_hash": "0x58d7e5df8eeae70159221d4ae5566b6288d07091a4ccc16326fcdf65e82cc0ae",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 168
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715418.303924,
+   "ack": "0x0f0151611babf34d7ba2cc75ac308c3f018fe175945298a103ec219be951f4a1",
+   "t_ack": 1793715418.3666923
+  },
+  {
+   "i": 28,
+   "hash": "0x9a30657f4d87f3e2cb8c0c99e0cc3a84c4fd9c13cf49344767f950a77749c5f5",
+   "nonce": 30,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715421.5415423,
+     "block": 170,
+     "block_hash": "0xdcd1e92d7926a93ee2f91f2d2048602450425201216139736fc5f396c809d320",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 170
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715421.5425532,
+     "block": 170,
+     "block_hash": "0xdcd1e92d7926a93ee2f91f2d2048602450425201216139736fc5f396c809d320",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 170
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715421.58252,
+     "block": 170,
+     "block_hash": "0xdcd1e92d7926a93ee2f91f2d2048602450425201216139736fc5f396c809d320",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 170
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715421.6669354,
+     "block": 170,
+     "block_hash": "0xdcd1e92d7926a93ee2f91f2d2048602450425201216139736fc5f396c809d320",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 170
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715420.7749128,
+   "ack": "0x9a30657f4d87f3e2cb8c0c99e0cc3a84c4fd9c13cf49344767f950a77749c5f5",
+   "t_ack": 1793715420.778532
+  },
+  {
+   "i": 29,
+   "hash": "0x2207784656e088c852df75c7c27529e7488f1b2887082062bfd6bba5698d3c4b",
+   "nonce": 31,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715423.6808805,
+     "block": 174,
+     "block_hash": "0xe0e586ed64768401dcb3f191d6e4f0d4d941f0f87726d0935c32ee357a83e847",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 174
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715423.696359,
+     "block": 174,
+     "block_hash": "0xe0e586ed64768401dcb3f191d6e4f0d4d941f0f87726d0935c32ee357a83e847",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 174
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715423.7748027,
+     "block": 174,
+     "block_hash": "0xe0e586ed64768401dcb3f191d6e4f0d4d941f0f87726d0935c32ee357a83e847",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 174
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715423.8210459,
+     "block": 174,
+     "block_hash": "0xe0e586ed64768401dcb3f191d6e4f0d4d941f0f87726d0935c32ee357a83e847",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 174
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715422.8254726,
+   "ack": "0x2207784656e088c852df75c7c27529e7488f1b2887082062bfd6bba5698d3c4b",
+   "t_ack": 1793715422.831998
+  },
+  {
+   "i": 30,
+   "hash": "0xe80433abd33c70e0f560d6472e4d33886432a39fe551e2376e92b52aa4ad4139",
+   "nonce": 32,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715427.5000298,
+     "block": 181,
+     "block_hash": "0x9303932f03f1c2571ba1c9b18fcdfb2d2014c5a2a3e471d50456daf3c64339f2",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 181
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715427.5133286,
+     "block": 181,
+     "block_hash": "0x9303932f03f1c2571ba1c9b18fcdfb2d2014c5a2a3e471d50456daf3c64339f2",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 181
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715427.5534925,
+     "block": 181,
+     "block_hash": "0x9303932f03f1c2571ba1c9b18fcdfb2d2014c5a2a3e471d50456daf3c64339f2",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 181
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715427.652004,
+     "block": 181,
+     "block_hash": "0x9303932f03f1c2571ba1c9b18fcdfb2d2014c5a2a3e471d50456daf3c64339f2",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 181
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715424.8708317,
+   "ack": "0xe80433abd33c70e0f560d6472e4d33886432a39fe551e2376e92b52aa4ad4139",
+   "t_ack": 1793715424.8843358
+  },
+  {
+   "i": 31,
+   "hash": "0x204359d683539bcbe4ca08bc483cd9b3f7e4e39f1d069bdec37bb4510836d1b6",
+   "nonce": 33,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715429.5328443,
+     "block": 186,
+     "block_hash": "0x0e494b2697dbd2ca6031ddd8e8c59764c124ccbe8f8cd5c877a5e26d7f241204",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 186
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715429.5421922,
+     "block": 186,
+     "block_hash": "0x0e494b2697dbd2ca6031ddd8e8c59764c124ccbe8f8cd5c877a5e26d7f241204",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 186
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715429.5855703,
+     "block": 186,
+     "block_hash": "0x0e494b2697dbd2ca6031ddd8e8c59764c124ccbe8f8cd5c877a5e26d7f241204",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 186
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715429.6897857,
+     "block": 186,
+     "block_hash": "0x0e494b2697dbd2ca6031ddd8e8c59764c124ccbe8f8cd5c877a5e26d7f241204",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 186
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715426.913414,
+   "ack": "0x204359d683539bcbe4ca08bc483cd9b3f7e4e39f1d069bdec37bb4510836d1b6",
+   "t_ack": 1793715426.9165168
+  },
+  {
+   "i": 32,
+   "hash": "0x3839ff14fab4d4510ebf45b10a014619a2a051a5ac76e6e9001ef4c8cd9e6e81",
+   "nonce": 34,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715430.0940552,
+     "block": 187,
+     "block_hash": "0xe3f9ce079c06de6cd65c33963472fda458fdb3f2e2938755f2c4f1a482e1dc80",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 187
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715430.125943,
+     "block": 187,
+     "block_hash": "0xe3f9ce079c06de6cd65c33963472fda458fdb3f2e2938755f2c4f1a482e1dc80",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 187
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715430.1402373,
+     "block": 187,
+     "block_hash": "0xe3f9ce079c06de6cd65c33963472fda458fdb3f2e2938755f2c4f1a482e1dc80",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 187
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715430.2160883,
+     "block": 187,
+     "block_hash": "0xe3f9ce079c06de6cd65c33963472fda458fdb3f2e2938755f2c4f1a482e1dc80",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 187
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715428.9492967,
+   "ack": "0x3839ff14fab4d4510ebf45b10a014619a2a051a5ac76e6e9001ef4c8cd9e6e81",
+   "t_ack": 1793715428.953374
+  },
+  {
+   "i": 33,
+   "hash": "0xf1ee24aba9b4a4ffb25016d902cb178bac1a425d7f793982db027a0184761700",
+   "nonce": 35,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715431.4631808,
+     "block": 190,
+     "block_hash": "0x45e0f6dedf5cc3271f36d63a9c2f6c15b0f7cecf49573fcc717e5460d969efe5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 190
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715431.4886796,
+     "block": 190,
+     "block_hash": "0x45e0f6dedf5cc3271f36d63a9c2f6c15b0f7cecf49573fcc717e5460d969efe5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 190
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715431.5258584,
+     "block": 190,
+     "block_hash": "0x45e0f6dedf5cc3271f36d63a9c2f6c15b0f7cecf49573fcc717e5460d969efe5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 190
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715431.7362535,
+     "block": 190,
+     "block_hash": "0x45e0f6dedf5cc3271f36d63a9c2f6c15b0f7cecf49573fcc717e5460d969efe5",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 191
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715430.9913135,
+   "ack": "0xf1ee24aba9b4a4ffb25016d902cb178bac1a425d7f793982db027a0184761700",
+   "t_ack": 1793715430.9981954
+  },
+  {
+   "i": 34,
+   "hash": "0x415d1fd7aa3f2f4cbbdd71aae1839d42d01f9de55b5bba19a7c2f277018c7459",
+   "nonce": 36,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715433.740317,
+     "block": 195,
+     "block_hash": "0xc49480081494469464f772d80d841ea269140836848833479d84db8660fe52a7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 195
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715433.7490163,
+     "block": 195,
+     "block_hash": "0xc49480081494469464f772d80d841ea269140836848833479d84db8660fe52a7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 195
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715433.813011,
+     "block": 195,
+     "block_hash": "0xc49480081494469464f772d80d841ea269140836848833479d84db8660fe52a7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 195
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715433.9103746,
+     "block": 195,
+     "block_hash": "0xc49480081494469464f772d80d841ea269140836848833479d84db8660fe52a7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 195
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715433.0276046,
+   "ack": "0x415d1fd7aa3f2f4cbbdd71aae1839d42d01f9de55b5bba19a7c2f277018c7459",
+   "t_ack": 1793715433.032829
+  },
+  {
+   "i": 35,
+   "hash": "0x7ab144d3580670b245154441ecd90e9d8c9b6c34435f58e7e075e002935d8de7",
+   "nonce": 37,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715435.9415686,
+     "block": 199,
+     "block_hash": "0x428af60b18470c6648a1bd23a489d26ee6bd5c9e32911a93cfd00a29d956b0d7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 199
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715435.9789343,
+     "block": 199,
+     "block_hash": "0x428af60b18470c6648a1bd23a489d26ee6bd5c9e32911a93cfd00a29d956b0d7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 199
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715436.0194216,
+     "block": 199,
+     "block_hash": "0x428af60b18470c6648a1bd23a489d26ee6bd5c9e32911a93cfd00a29d956b0d7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 199
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715436.0971944,
+     "block": 199,
+     "block_hash": "0x428af60b18470c6648a1bd23a489d26ee6bd5c9e32911a93cfd00a29d956b0d7",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 199
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715435.0844433,
+   "ack": "0x7ab144d3580670b245154441ecd90e9d8c9b6c34435f58e7e075e002935d8de7",
+   "t_ack": 1793715435.11302
+  },
+  {
+   "i": 36,
+   "hash": "0x6a7ead92eaef659b6e0cdf77c175a9cbe8c243a7cd9df260946b52f837ce3a1a",
+   "nonce": 38,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715439.361555,
+     "block": 207,
+     "block_hash": "0xcabfc332536c440e7e1c46ed6081f1b109abe0b1a98418d3e4370a6088c726f4",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 207
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715439.3764331,
+     "block": 207,
+     "block_hash": "0xcabfc332536c440e7e1c46ed6081f1b109abe0b1a98418d3e4370a6088c726f4",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 207
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715439.4149578,
+     "block": 207,
+     "block_hash": "0xcabfc332536c440e7e1c46ed6081f1b109abe0b1a98418d3e4370a6088c726f4",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 207
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715439.4767344,
+     "block": 207,
+     "block_hash": "0xcabfc332536c440e7e1c46ed6081f1b109abe0b1a98418d3e4370a6088c726f4",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 207
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715437.1608706,
+   "ack": "0x6a7ead92eaef659b6e0cdf77c175a9cbe8c243a7cd9df260946b52f837ce3a1a",
+   "t_ack": 1793715437.1679142
+  },
+  {
+   "i": 37,
+   "hash": "0x747f03e7e2ec9fe315e66dbbfb3287464c6adfd4ba9d527f56ad49433cd2be28",
+   "nonce": 39,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715441.1113794,
+     "block": 210,
+     "block_hash": "0x9f31808135f1dd69c45c9eee500c44382cd12ca8b7887260eaf142fb41ffa30d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 210
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715441.1147988,
+     "block": 210,
+     "block_hash": "0x9f31808135f1dd69c45c9eee500c44382cd12ca8b7887260eaf142fb41ffa30d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 210
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715441.1696243,
+     "block": 210,
+     "block_hash": "0x9f31808135f1dd69c45c9eee500c44382cd12ca8b7887260eaf142fb41ffa30d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 210
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715441.1550045,
+     "block": 210,
+     "block_hash": "0x9f31808135f1dd69c45c9eee500c44382cd12ca8b7887260eaf142fb41ffa30d",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 210
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715439.1973858,
+   "ack": "0x747f03e7e2ec9fe315e66dbbfb3287464c6adfd4ba9d527f56ad49433cd2be28",
+   "t_ack": 1793715439.2016745
+  },
+  {
+   "i": 38,
+   "hash": "0xac3ccd71ffafc5f17e477a2875ac6c40ae0a9eafb58ef89f478599e447cea255",
+   "nonce": 40,
+   "per_node": {
+    "http://127.0.0.1:8543": {
+     "t": 1793715442.1637363,
+     "block": 212,
+     "block_hash": "0x687450aaf3aa7575c52b56f9bc7469e9745b55a091db23abc491e2706150ed85",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 212
+    },
+    "http://127.0.0.1:8545": {
+     "t": 1793715442.1772213,
+     "block": 212,
+     "block_hash": "0x687450aaf3aa7575c52b56f9bc7469e9745b55a091db23abc491e2706150ed85",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 212
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715442.2621248,
+     "block": 212,
+     "block_hash": "0x687450aaf3aa7575c52b56f9bc7469e9745b55a091db23abc491e2706150ed85",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 212
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715442.3084447,
+     "block": 212,
+     "block_hash": "0x687450aaf3aa7575c52b56f9bc7469e9745b55a091db23abc491e2706150ed85",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 212
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715441.2564003,
+   "ack": "0xac3ccd71ffafc5f17e477a2875ac6c40ae0a9eafb58ef89f478599e447cea255",
+   "t_ack": 1793715441.262146
+  },
+  {
+   "i": 39,
+   "hash": "0x099d5be3e1153b057e8b113b28863db17426dd3776ce0ef66f9e6524030cf1b8",
+   "nonce": 41,
+   "per_node": {
+    "http://127.0.0.1:8545": {
+     "t": 1793715444.0633798,
+     "block": 216,
+     "block_hash": "0xcf3d51d02029e71caf1279a283463a8d9bc40c07f95da34af9d4d85b718e467a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 216
+    },
+    "http://127.0.0.1:8543": {
+     "t": 1793715444.050407,
+     "block": 216,
+     "block_hash": "0xcf3d51d02029e71caf1279a283463a8d9bc40c07f95da34af9d4d85b718e467a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 216
+    },
+    "http://127.0.0.1:8544": {
+     "t": 1793715444.1621146,
+     "block": 216,
+     "block_hash": "0xcf3d51d02029e71caf1279a283463a8d9bc40c07f95da34af9d4d85b718e467a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 216
+    },
+    "http://127.0.0.1:8542": {
+     "t": 1793715444.2144055,
+     "block": 216,
+     "block_hash": "0xcf3d51d02029e71caf1279a283463a8d9bc40c07f95da34af9d4d85b718e467a",
+     "status": 1,
+     "tx_index": 0,
+     "finalized_at_receipt": 216
+    }
+   },
+   "up_at_submit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "t_submit": 1793715443.3224068,
+   "ack": "0x099d5be3e1153b057e8b113b28863db17426dd3776ce0ef66f9e6524030cf1b8",
+   "t_ack": 1793715443.3254201
+  }
+ ],
+ "final_heights": [
+  219,
+  218,
+  219,
+  219
+ ],
+ "commit": "0f600827b0cdb296ce5947a16e977d65cdbf7faf",
+ "summary": {
+  "label": "DE_quorum_lost_run3",
+  "killed": [
+   0,
+   2
+  ],
+  "submit_node": 1,
+  "longest_chain_stall_s": 67.39,
+  "resynced_after_s": 0.1,
+  "heights_after": [
+   219,
+   218,
+   219,
+   219
+  ],
+  "chain_height_at_kill_vs_restart": [
+   164,
+   164
+  ],
+  "fork_check": {
+   "heights_checked": 51,
+   "hash_mismatches": [],
+   "balance_values_seen": 1,
+   "nonce_values_seen": 1
+  },
+  "before": {
+   "payments": 10,
+   "settled": 10,
+   "rejected_at_submit": 0,
+   "median_s": 0.865,
+   "max_s": 1.474,
+   "failed_status": 0
+  },
+  "during": {
+   "payments": 15,
+   "settled": 15,
+   "rejected_at_submit": 0,
+   "median_s": 39.639,
+   "max_s": 68.007,
+   "failed_status": 0
+  },
+  "after": {
+   "payments": 15,
+   "settled": 15,
+   "rejected_at_submit": 0,
+   "median_s": 1.145,
+   "max_s": 6.816,
+   "failed_status": 0
+  }
+ },
+ "height_timeline": [
+  [
+   1793715327.6977575,
+   [
+    117,
+    117,
+    117,
+    117
+   ]
+  ],
+  [
+   1793715327.9751425,
+   [
+    118,
+    118,
+    118,
+    118
+   ]
+  ],
+  [
+   1793715328.2574158,
+   [
+    118,
+    118,
+    118,
+    118
+   ]
+  ],
+  [
+   1793715328.5706537,
+   [
+    119,
+    119,
+    119,
+    119
+   ]
+  ],
+  [
+   1793715328.8427477,
+   [
+    119,
+    119,
+    119,
+    120
+   ]
+  ],
+  [
+   1793715329.143979,
+   [
+    120,
+    120,
+    120,
+    120
+   ]
+  ],
+  [
+   1793715329.409325,
+   [
+    120,
+    120,
+    120,
+    121
+   ]
+  ],
+  [
+   1793715329.6982393,
+   [
+    121,
+    121,
+    121,
+    121
+   ]
+  ],
+  [
+   1793715329.9661834,
+   [
+    121,
+    122,
+    122,
+    122
+   ]
+  ],
+  [
+   1793715330.243854,
+   [
+    122,
+    122,
+    122,
+    122
+   ]
+  ],
+  [
+   1793715330.5141966,
+   [
+    122,
+    123,
+    122,
+    123
+   ]
+  ],
+  [
+   1793715330.7920554,
+   [
+    123,
+    123,
+    123,
+    123
+   ]
+  ],
+  [
+   1793715331.0691602,
+   [
+    123,
+    123,
+    124,
+    124
+   ]
+  ],
+  [
+   1793715331.3503382,
+   [
+    124,
+    124,
+    124,
+    124
+   ]
+  ],
+  [
+   1793715331.6417265,
+   [
+    125,
+    125,
+    125,
+    124
+   ]
+  ],
+  [
+   1793715331.9269004,
+   [
+    125,
+    125,
+    125,
+    125
+   ]
+  ],
+  [
+   1793715332.2397249,
+   [
+    126,
+    126,
+    126,
+    126
+   ]
+  ],
+  [
+   1793715332.5231657,
+   [
+    126,
+    126,
+    126,
+    126
+   ]
+  ],
+  [
+   1793715332.8157296,
+   [
+    127,
+    127,
+    127,
+    127
+   ]
+  ],
+  [
+   1793715333.1138625,
+   [
+    127,
+    127,
+    127,
+    127
+   ]
+  ],
+  [
+   1793715333.3868518,
+   [
+    128,
+    128,
+    128,
+    128
+   ]
+  ],
+  [
+   1793715333.6604683,
+   [
+    128,
+    128,
+    128,
+    128
+   ]
+  ],
+  [
+   1793715333.9519076,
+   [
+    129,
+    129,
+    129,
+    129
+   ]
+  ],
+  [
+   1793715334.2658827,
+   [
+    130,
+    130,
+    130,
+    130
+   ]
+  ],
+  [
+   1793715334.5499353,
+   [
+    130,
+    130,
+    130,
+    130
+   ]
+  ],
+  [
+   1793715334.855011,
+   [
+    131,
+    131,
+    131,
+    132
+   ]
+  ],
+  [
+   1793715335.1426804,
+   [
+    132,
+    132,
+    132,
+    132
+   ]
+  ],
+  [
+   1793715335.4201515,
+   [
+    132,
+    132,
+    132,
+    132
+   ]
+  ],
+  [
+   1793715335.696173,
+   [
+    133,
+    133,
+    133,
+    133
+   ]
+  ],
+  [
+   1793715335.980428,
+   [
+    133,
+    133,
+    134,
+    133
+   ]
+  ],
+  [
+   1793715336.2573774,
+   [
+    134,
+    134,
+    134,
+    134
+   ]
+  ],
+  [
+   1793715336.5290132,
+   [
+    134,
+    134,
+    134,
+    135
+   ]
+  ],
+  [
+   1793715336.8239684,
+   [
+    135,
+    135,
+    135,
+    135
+   ]
+  ],
+  [
+   1793715337.129853,
+   [
+    136,
+    135,
+    136,
+    135
+   ]
+  ],
+  [
+   1793715337.402831,
+   [
+    136,
+    136,
+    136,
+    136
+   ]
+  ],
+  [
+   1793715337.6963825,
+   [
+    136,
+    136,
+    136,
+    137
+   ]
+  ],
+  [
+   1793715337.9709277,
+   [
+    137,
+    137,
+    137,
+    137
+   ]
+  ],
+  [
+   1793715338.2779508,
+   [
+    138,
+    138,
+    138,
+    137
+   ]
+  ],
+  [
+   1793715338.5695086,
+   [
+    138,
+    138,
+    138,
+    138
+   ]
+  ],
+  [
+   1793715338.8644798,
+   [
+    139,
+    139,
+    139,
+    139
+   ]
+  ],
+  [
+   1793715339.1356337,
+   [
+    139,
+    139,
+    139,
+    139
+   ]
+  ],
+  [
+   1793715339.4204838,
+   [
+    140,
+    140,
+    140,
+    140
+   ]
+  ],
+  [
+   1793715339.7258825,
+   [
+    140,
+    140,
+    140,
+    140
+   ]
+  ],
+  [
+   1793715340.0271637,
+   [
+    141,
+    141,
+    141,
+    141
+   ]
+  ],
+  [
+   1793715340.30368,
+   [
+    141,
+    141,
+    141,
+    141
+   ]
+  ],
+  [
+   1793715340.6049426,
+   [
+    142,
+    142,
+    142,
+    142
+   ]
+  ],
+  [
+   1793715340.8744972,
+   [
+    142,
+    142,
+    142,
+    142
+   ]
+  ],
+  [
+   1793715341.1587355,
+   [
+    143,
+    143,
+    143,
+    143
+   ]
+  ],
+  [
+   1793715341.4461596,
+   [
+    143,
+    143,
+    143,
+    143
+   ]
+  ],
+  [
+   1793715341.7230117,
+   [
+    144,
+    144,
+    144,
+    144
+   ]
+  ],
+  [
+   1793715342.014849,
+   [
+    144,
+    144,
+    144,
+    144
+   ]
+  ],
+  [
+   1793715342.301086,
+   [
+    145,
+    145,
+    145,
+    145
+   ]
+  ],
+  [
+   1793715342.574959,
+   [
+    145,
+    145,
+    145,
+    145
+   ]
+  ],
+  [
+   1793715342.8604755,
+   [
+    146,
+    146,
+    146,
+    146
+   ]
+  ],
+  [
+   1793715343.1440067,
+   [
+    146,
+    146,
+    146,
+    146
+   ]
+  ],
+  [
+   1793715343.4100251,
+   [
+    147,
+    147,
+    147,
+    147
+   ]
+  ],
+  [
+   1793715343.7054906,
+   [
+    148,
+    148,
+    147,
+    147
+   ]
+  ],
+  [
+   1793715343.982593,
+   [
+    148,
+    148,
+    148,
+    148
+   ]
+  ],
+  [
+   1793715344.251736,
+   [
+    149,
+    148,
+    149,
+    149
+   ]
+  ],
+  [
+   1793715344.5265584,
+   [
+    149,
+    149,
+    149,
+    149
+   ]
+  ],
+  [
+   1793715344.796511,
+   [
+    150,
+    150,
+    149,
+    149
+   ]
+  ],
+  [
+   1793715345.0687087,
+   [
+    150,
+    151,
+    150,
+    151
+   ]
+  ],
+  [
+   1793715345.3388488,
+   [
+    151,
+    151,
+    151,
+    151
+   ]
+  ],
+  [
+   1793715345.615573,
+   [
+    151,
+    151,
+    151,
+    151
+   ]
+  ],
+  [
+   1793715345.8987744,
+   [
+    152,
+    152,
+    152,
+    152
+   ]
+  ],
+  [
+   1793715346.1968205,
+   [
+    152,
+    152,
+    153,
+    153
+   ]
+  ],
+  [
+   1793715346.4750783,
+   [
+    153,
+    153,
+    153,
+    153
+   ]
+  ],
+  [
+   1793715346.7452834,
+   [
+    153,
+    153,
+    153,
+    154
+   ]
+  ],
+  [
+   1793715347.0262427,
+   [
+    154,
+    154,
+    154,
+    154
+   ]
+  ],
+  [
+   1793715347.2948728,
+   [
+    154,
+    154,
+    155,
+    154
+   ]
+  ],
+  [
+   1793715347.5885487,
+   [
+    155,
+    155,
+    155,
+    155
+   ]
+  ],
+  [
+   1793715347.8666065,
+   [
+    156,
+    155,
+    156,
+    155
+   ]
+  ],
+  [
+   1793715348.1381118,
+   [
+    156,
+    156,
+    156,
+    156
+   ]
+  ],
+  [
+   1793715348.405212,
+   [
+    157,
+    157,
+    156,
+    156
+   ]
+  ],
+  [
+   1793715348.6737158,
+   [
+    157,
+    157,
+    157,
+    157
+   ]
+  ],
+  [
+   1793715348.9586637,
+   [
+    157,
+    157,
+    158,
+    157
+   ]
+  ],
+  [
+   1793715349.2349596,
+   [
+    158,
+    158,
+    158,
+    158
+   ]
+  ],
+  [
+   1793715349.542428,
+   [
+    159,
+    159,
+    159,
+    158
+   ]
+  ],
+  [
+   1793715349.817723,
+   [
+    159,
+    159,
+    159,
+    159
+   ]
+  ],
+  [
+   1793715350.1045256,
+   [
+    160,
+    160,
+    159,
+    160
+   ]
+  ],
+  [
+   1793715350.4107327,
+   [
+    160,
+    160,
+    160,
+    160
+   ]
+  ],
+  [
+   1793715350.701712,
+   [
+    161,
+    161,
+    161,
+    161
+   ]
+  ],
+  [
+   1793715350.9908416,
+   [
+    161,
+    161,
+    161,
+    161
+   ]
+  ],
+  [
+   1793715351.3325372,
+   [
+    162,
+    162,
+    162,
+    162
+   ]
+  ],
+  [
+   1793715351.6133611,
+   [
+    163,
+    162,
+    163,
+    163
+   ]
+  ],
+  [
+   1793715351.9110482,
+   [
+    163,
+    163,
+    163,
+    163
+   ]
+  ],
+  [
+   1793715352.1966677,
+   [
+    163,
+    163,
+    163,
+    164
+   ]
+  ],
+  [
+   1793715352.4906893,
+   [
+    null,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715352.7834966,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715355.0634785,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715357.3339257,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715359.6290932,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715361.9201722,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715364.204583,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715366.4989142,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715368.7734058,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715371.0482116,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715373.3232126,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715375.5956686,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715377.8672657,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715380.145197,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715382.4141014,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715384.6933916,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715386.9662237,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715389.284258,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715391.572565,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715393.859162,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715396.1448622,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715398.439859,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715400.726214,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715403.0202532,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715405.2909305,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715407.5878932,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715409.8955216,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715412.2177641,
+   [
+    null,
+    164,
+    null,
+    164
+   ]
+  ],
+  [
+   1793715414.525252,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715415.4688535,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715415.9461596,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715416.479181,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715416.9872434,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715417.5229247,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715418.0473874,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715418.5359757,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715419.054736,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715419.5840569,
+   [
+    164,
+    164,
+    164,
+    164
+   ]
+  ],
+  [
+   1793715420.2285795,
+   [
+    165,
+    165,
+    168,
+    168
+   ]
+  ],
+  [
+   1793715420.9432101,
+   [
+    168,
+    168,
+    168,
+    168
+   ]
+  ],
+  [
+   1793715421.228134,
+   [
+    169,
+    169,
+    169,
+    169
+   ]
+  ],
+  [
+   1793715421.5206847,
+   [
+    170,
+    169,
+    170,
+    169
+   ]
+  ],
+  [
+   1793715421.8068917,
+   [
+    170,
+    170,
+    170,
+    170
+   ]
+  ],
+  [
+   1793715422.0812178,
+   [
+    171,
+    170,
+    171,
+    171
+   ]
+  ],
+  [
+   1793715422.39869,
+   [
+    171,
+    171,
+    171,
+    171
+   ]
+  ],
+  [
+   1793715422.672426,
+   [
+    172,
+    171,
+    172,
+    172
+   ]
+  ],
+  [
+   1793715422.9705288,
+   [
+    172,
+    172,
+    172,
+    172
+   ]
+  ],
+  [
+   1793715423.2539485,
+   [
+    173,
+    173,
+    173,
+    173
+   ]
+  ],
+  [
+   1793715423.5572698,
+   [
+    173,
+    173,
+    173,
+    173
+   ]
+  ],
+  [
+   1793715423.8450637,
+   [
+    174,
+    174,
+    174,
+    174
+   ]
+  ],
+  [
+   1793715424.1388571,
+   [
+    174,
+    174,
+    174,
+    174
+   ]
+  ],
+  [
+   1793715424.423844,
+   [
+    175,
+    175,
+    175,
+    175
+   ]
+  ],
+  [
+   1793715424.7054446,
+   [
+    175,
+    175,
+    175,
+    175
+   ]
+  ],
+  [
+   1793715425.0006337,
+   [
+    176,
+    176,
+    176,
+    176
+   ]
+  ],
+  [
+   1793715425.3005323,
+   [
+    177,
+    176,
+    177,
+    176
+   ]
+  ],
+  [
+   1793715425.5777442,
+   [
+    177,
+    177,
+    177,
+    177
+   ]
+  ],
+  [
+   1793715425.871874,
+   [
+    178,
+    177,
+    178,
+    177
+   ]
+  ],
+  [
+   1793715426.1428046,
+   [
+    178,
+    178,
+    178,
+    178
+   ]
+  ],
+  [
+   1793715426.4408057,
+   [
+    179,
+    179,
+    179,
+    178
+   ]
+  ],
+  [
+   1793715426.7273164,
+   [
+    179,
+    179,
+    179,
+    179
+   ]
+  ],
+  [
+   1793715427.0293589,
+   [
+    180,
+    180,
+    180,
+    180
+   ]
+  ],
+  [
+   1793715427.3031008,
+   [
+    180,
+    180,
+    180,
+    180
+   ]
+  ],
+  [
+   1793715427.5834396,
+   [
+    181,
+    181,
+    181,
+    180
+   ]
+  ],
+  [
+   1793715427.8599033,
+   [
+    183,
+    183,
+    183,
+    181
+   ]
+  ],
+  [
+   1793715428.142406,
+   [
+    183,
+    183,
+    183,
+    183
+   ]
+  ],
+  [
+   1793715428.446611,
+   [
+    184,
+    183,
+    184,
+    184
+   ]
+  ],
+  [
+   1793715428.7115111,
+   [
+    184,
+    184,
+    184,
+    184
+   ]
+  ],
+  [
+   1793715428.9988093,
+   [
+    185,
+    184,
+    185,
+    185
+   ]
+  ],
+  [
+   1793715429.292582,
+   [
+    185,
+    185,
+    185,
+    185
+   ]
+  ],
+  [
+   1793715429.581509,
+   [
+    186,
+    185,
+    186,
+    186
+   ]
+  ],
+  [
+   1793715429.8505075,
+   [
+    186,
+    186,
+    186,
+    186
+   ]
+  ],
+  [
+   1793715430.1345258,
+   [
+    187,
+    186,
+    187,
+    187
+   ]
+  ],
+  [
+   1793715430.4199407,
+   [
+    187,
+    187,
+    187,
+    187
+   ]
+  ],
+  [
+   1793715430.71077,
+   [
+    188,
+    187,
+    188,
+    188
+   ]
+  ],
+  [
+   1793715431.0221567,
+   [
+    188,
+    188,
+    188,
+    188
+   ]
+  ],
+  [
+   1793715431.313764,
+   [
+    189,
+    189,
+    189,
+    188
+   ]
+  ],
+  [
+   1793715431.5990314,
+   [
+    191,
+    189,
+    191,
+    190
+   ]
+  ],
+  [
+   1793715431.860849,
+   [
+    191,
+    191,
+    191,
+    191
+   ]
+  ],
+  [
+   1793715432.1441605,
+   [
+    191,
+    191,
+    192,
+    191
+   ]
+  ],
+  [
+   1793715432.4169238,
+   [
+    192,
+    192,
+    192,
+    192
+   ]
+  ],
+  [
+   1793715432.6907625,
+   [
+    193,
+    192,
+    193,
+    192
+   ]
+  ],
+  [
+   1793715432.9876616,
+   [
+    193,
+    193,
+    193,
+    193
+   ]
+  ],
+  [
+   1793715433.2636437,
+   [
+    194,
+    194,
+    194,
+    194
+   ]
+  ],
+  [
+   1793715433.5523043,
+   [
+    194,
+    194,
+    194,
+    194
+   ]
+  ],
+  [
+   1793715433.8610477,
+   [
+    195,
+    195,
+    195,
+    195
+   ]
+  ],
+  [
+   1793715434.1488814,
+   [
+    195,
+    195,
+    195,
+    195
+   ]
+  ],
+  [
+   1793715434.4531708,
+   [
+    196,
+    196,
+    196,
+    196
+   ]
+  ],
+  [
+   1793715434.7450047,
+   [
+    196,
+    196,
+    196,
+    196
+   ]
+  ],
+  [
+   1793715435.0445993,
+   [
+    197,
+    197,
+    197,
+    197
+   ]
+  ],
+  [
+   1793715435.3241658,
+   [
+    197,
+    197,
+    198,
+    197
+   ]
+  ],
+  [
+   1793715435.60416,
+   [
+    198,
+    198,
+    198,
+    198
+   ]
+  ],
+  [
+   1793715435.8912983,
+   [
+    198,
+    198,
+    198,
+    198
+   ]
+  ],
+  [
+   1793715436.1919677,
+   [
+    200,
+    200,
+    200,
+    200
+   ]
+  ],
+  [
+   1793715436.480247,
+   [
+    200,
+    200,
+    200,
+    200
+   ]
+  ],
+  [
+   1793715436.7776842,
+   [
+    201,
+    201,
+    201,
+    201
+   ]
+  ],
+  [
+   1793715437.0808082,
+   [
+    201,
+    201,
+    201,
+    201
+   ]
+  ],
+  [
+   1793715437.355844,
+   [
+    202,
+    202,
+    202,
+    202
+   ]
+  ],
+  [
+   1793715437.649482,
+   [
+    202,
+    202,
+    202,
+    202
+   ]
+  ],
+  [
+   1793715437.940523,
+   [
+    203,
+    202,
+    203,
+    203
+   ]
+  ],
+  [
+   1793715438.2409134,
+   [
+    203,
+    203,
+    203,
+    203
+   ]
+  ],
+  [
+   1793715438.5457673,
+   [
+    204,
+    204,
+    204,
+    204
+   ]
+  ],
+  [
+   1793715438.8429956,
+   [
+    204,
+    204,
+    205,
+    204
+   ]
+  ],
+  [
+   1793715439.1213908,
+   [
+    206,
+    205,
+    206,
+    205
+   ]
+  ],
+  [
+   1793715439.3832214,
+   [
+    207,
+    206,
+    207,
+    206
+   ]
+  ],
+  [
+   1793715439.646986,
+   [
+    207,
+    207,
+    207,
+    207
+   ]
+  ],
+  [
+   1793715439.9617577,
+   [
+    208,
+    207,
+    208,
+    208
+   ]
+  ],
+  [
+   1793715440.2482755,
+   [
+    208,
+    208,
+    208,
+    208
+   ]
+  ],
+  [
+   1793715440.5631776,
+   [
+    209,
+    209,
+    209,
+    208
+   ]
+  ],
+  [
+   1793715440.856496,
+   [
+    209,
+    209,
+    209,
+    209
+   ]
+  ],
+  [
+   1793715441.1364655,
+   [
+    210,
+    210,
+    210,
+    210
+   ]
+  ],
+  [
+   1793715441.4434793,
+   [
+    210,
+    210,
+    210,
+    210
+   ]
+  ],
+  [
+   1793715441.7558103,
+   [
+    211,
+    211,
+    211,
+    211
+   ]
+  ],
+  [
+   1793715442.021579,
+   [
+    211,
+    211,
+    211,
+    211
+   ]
+  ],
+  [
+   1793715442.3705962,
+   [
+    212,
+    212,
+    212,
+    212
+   ]
+  ],
+  [
+   1793715442.6566951,
+   [
+    212,
+    212,
+    213,
+    212
+   ]
+  ],
+  [
+   1793715442.9379725,
+   [
+    213,
+    213,
+    213,
+    213
+   ]
+  ],
+  [
+   1793715443.2276783,
+   [
+    214,
+    213,
+    214,
+    213
+   ]
+  ],
+  [
+   1793715443.5042272,
+   [
+    215,
+    215,
+    215,
+    214
+   ]
+  ],
+  [
+   1793715443.7699742,
+   [
+    215,
+    215,
+    215,
+    215
+   ]
+  ],
+  [
+   1793715444.0519285,
+   [
+    216,
+    215,
+    216,
+    215
+   ]
+  ],
+  [
+   1793715444.3502905,
+   [
+    216,
+    216,
+    216,
+    216
+   ]
+  ],
+  [
+   1793715444.6407144,
+   [
+    217,
+    217,
+    217,
+    217
+   ]
+  ],
+  [
+   1793715444.9056337,
+   [
+    217,
+    217,
+    217,
+    217
+   ]
+  ],
+  [
+   1793715445.177905,
+   [
+    218,
+    218,
+    218,
+    217
+   ]
+  ]
+ ],
+ "rows": [
+  {
+   "i": 0,
+   "submit_error": null,
+   "t_submit": 1793715331.8742063,
+   "latency": 0.846,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 1,
+   "submit_error": null,
+   "t_submit": 1793715333.9180653,
+   "latency": 0.942,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 2,
+   "submit_error": null,
+   "t_submit": 1793715335.9538252,
+   "latency": 1.195,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 3,
+   "submit_error": null,
+   "t_submit": 1793715337.9929779,
+   "latency": 0.807,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 4,
+   "submit_error": null,
+   "t_submit": 1793715340.0448864,
+   "latency": 1.474,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 5,
+   "submit_error": null,
+   "t_submit": 1793715342.076684,
+   "latency": 1.116,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 6,
+   "submit_error": null,
+   "t_submit": 1793715344.1374598,
+   "latency": 0.67,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 7,
+   "submit_error": null,
+   "t_submit": 1793715346.1642957,
+   "latency": 0.612,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 8,
+   "submit_error": null,
+   "t_submit": 1793715348.211435,
+   "latency": 0.744,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 9,
+   "submit_error": null,
+   "t_submit": 1793715350.2650242,
+   "latency": 0.865,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 10,
+   "submit_error": null,
+   "t_submit": 1793715352.5895379,
+   "latency": 68.007,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 11,
+   "submit_error": null,
+   "t_submit": 1793715356.6170418,
+   "latency": 63.87,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 12,
+   "submit_error": null,
+   "t_submit": 1793715360.6482675,
+   "latency": 59.874,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 13,
+   "submit_error": null,
+   "t_submit": 1793715364.6851974,
+   "latency": 55.827,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 14,
+   "submit_error": null,
+   "t_submit": 1793715368.7226095,
+   "latency": 51.898,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 15,
+   "submit_error": null,
+   "t_submit": 1793715372.7481287,
+   "latency": 47.767,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 16,
+   "submit_error": null,
+   "t_submit": 1793715376.7801616,
+   "latency": 43.739,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 17,
+   "submit_error": null,
+   "t_submit": 1793715380.8025894,
+   "latency": 39.639,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 18,
+   "submit_error": null,
+   "t_submit": 1793715384.8446755,
+   "latency": 35.627,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 19,
+   "submit_error": null,
+   "t_submit": 1793715388.8881023,
+   "latency": 31.622,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 20,
+   "submit_error": null,
+   "t_submit": 1793715392.919284,
+   "latency": 27.582,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 21,
+   "submit_error": null,
+   "t_submit": 1793715396.9758024,
+   "latency": 23.527,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 22,
+   "submit_error": null,
+   "t_submit": 1793715401.0217462,
+   "latency": 19.537,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 23,
+   "submit_error": null,
+   "t_submit": 1793715405.0573962,
+   "latency": 15.46,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 24,
+   "submit_error": null,
+   "t_submit": 1793715409.1053247,
+   "latency": 11.474,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 25,
+   "submit_error": null,
+   "t_submit": 1793715413.7012317,
+   "latency": 6.816,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 26,
+   "submit_error": null,
+   "t_submit": 1793715415.9848113,
+   "latency": 4.576,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 27,
+   "submit_error": null,
+   "t_submit": 1793715418.303924,
+   "latency": 2.206,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 28,
+   "submit_error": null,
+   "t_submit": 1793715420.7749128,
+   "latency": 0.767,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 29,
+   "submit_error": null,
+   "t_submit": 1793715422.8254726,
+   "latency": 0.855,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 30,
+   "submit_error": null,
+   "t_submit": 1793715424.8708317,
+   "latency": 2.629,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 31,
+   "submit_error": null,
+   "t_submit": 1793715426.913414,
+   "latency": 2.619,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 32,
+   "submit_error": null,
+   "t_submit": 1793715428.9492967,
+   "latency": 1.145,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 33,
+   "submit_error": null,
+   "t_submit": 1793715430.9913135,
+   "latency": 0.472,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 34,
+   "submit_error": null,
+   "t_submit": 1793715433.0276046,
+   "latency": 0.713,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 35,
+   "submit_error": null,
+   "t_submit": 1793715435.0844433,
+   "latency": 0.857,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 36,
+   "submit_error": null,
+   "t_submit": 1793715437.1608706,
+   "latency": 2.201,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 37,
+   "submit_error": null,
+   "t_submit": 1793715439.1973858,
+   "latency": 1.914,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 38,
+   "submit_error": null,
+   "t_submit": 1793715441.2564003,
+   "latency": 0.907,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  },
+  {
+   "i": 39,
+   "submit_error": null,
+   "t_submit": 1793715443.3224068,
+   "latency": 0.728,
+   "nodes_with_receipt": 4,
+   "statuses": [
+    1
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+[
+ {
+  "label": "R_kill_600s_run1",
+  "how": "kill",
+  "downtime_s": 600,
+  "height_at_stop": 345,
+  "height_at_restart": 1396,
+  "ref_height": 1599,
+  "victim_height": 1125,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   1599,
+   1125
+  ],
+  "verdict": "match",
+  "log": "0"
+ },
+ {
+  "label": "R_kill_600s_run2",
+  "how": "kill",
+  "downtime_s": 600,
+  "height_at_stop": 342,
+  "height_at_restart": 738,
+  "ref_height": 883,
+  "victim_height": 884,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   883,
+   884
+  ],
+  "verdict": "match",
+  "log": "0"
+ }
+]

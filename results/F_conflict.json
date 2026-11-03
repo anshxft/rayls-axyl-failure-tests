@@ -1,0 +1,1658 @@
+[
+ {
+  "trial": 0,
+  "sent_to": [
+   0,
+   1
+  ],
+  "nonce": 0,
+  "acks": {
+   "B": {
+    "ack": "0x38588863631da4a02325f29c37b5f4c97a06ff6d09bccd6538462b3743bc70a3",
+    "t": 1793715545.454251
+   },
+   "A": {
+    "ack": "0x18ae2b1bf0b08ec8a62b04a418a5f62cf9dc8169a7959753b9c949686e92eb01",
+    "t": 1793715545.454251
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 118,
+    "hash": "0xb2091d3d0ea376941738ee5309bc84fd107e60c03e1e76d607b5a10c480aec69",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 118,
+    "hash": "0xb2091d3d0ea376941738ee5309bc84fd107e60c03e1e76d607b5a10c480aec69",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 118,
+    "hash": "0xb2091d3d0ea376941738ee5309bc84fd107e60c03e1e76d607b5a10c480aec69",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 118,
+    "hash": "0xb2091d3d0ea376941738ee5309bc84fd107e60c03e1e76d607b5a10c480aec69",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 1,
+   "8544": 1,
+   "8543": 1,
+   "8542": 1
+  }
+ },
+ {
+  "trial": 1,
+  "sent_to": [
+   1,
+   2
+  ],
+  "nonce": 1,
+  "acks": {
+   "A": {
+    "ack": "0xcd7ae2d465d466bf21f222d01bae5fa0ce7ee84a8002112cdcb0d248945319ad",
+    "t": 1793715565.968106
+   },
+   "B": {
+    "ack": "0x3e91c82ba5f18dd0b70ac4eb2c90c7a4697869b3bfa0424527108902aa4ab295",
+    "t": 1793715565.9779742
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 157,
+    "hash": "0x41dbde0c8744f37e043b372d2132c952a1b6608e746527e329ffc58518f7cf0e",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 157,
+    "hash": "0x41dbde0c8744f37e043b372d2132c952a1b6608e746527e329ffc58518f7cf0e",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 157,
+    "hash": "0x41dbde0c8744f37e043b372d2132c952a1b6608e746527e329ffc58518f7cf0e",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 157,
+    "hash": "0x41dbde0c8744f37e043b372d2132c952a1b6608e746527e329ffc58518f7cf0e",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 2,
+   "8544": 2,
+   "8543": 2,
+   "8542": 2
+  }
+ },
+ {
+  "trial": 2,
+  "sent_to": [
+   2,
+   3
+  ],
+  "nonce": 2,
+  "acks": {
+   "B": {
+    "ack": "0x4921b1068b0a17f6d1371162641700f4eac16db7e8e576bee0363cdf093aea68",
+    "t": 1793715586.3539746
+   },
+   "A": {
+    "ack": "0x018e55eba70712f8c8a1a72c5e9da95a3119e90c91d2c920d2dc66086a5239d2",
+    "t": 1793715586.3592725
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 194,
+    "hash": "0x59a938d926633bf1b98f43f6c0fa2660b27a59217d9f6e13d229d238dd23202a",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 194,
+    "hash": "0x59a938d926633bf1b98f43f6c0fa2660b27a59217d9f6e13d229d238dd23202a",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 194,
+    "hash": "0x59a938d926633bf1b98f43f6c0fa2660b27a59217d9f6e13d229d238dd23202a",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 194,
+    "hash": "0x59a938d926633bf1b98f43f6c0fa2660b27a59217d9f6e13d229d238dd23202a",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 3,
+   "8544": 3,
+   "8543": 3,
+   "8542": 3
+  }
+ },
+ {
+  "trial": 3,
+  "sent_to": [
+   3,
+   0
+  ],
+  "nonce": 3,
+  "acks": {
+   "A": {
+    "ack": "0xf5d26152d351d9f9adce3e98ebdd0905b01774a52948d324218e1a7f49277a15",
+    "t": 1793715606.714709
+   },
+   "B": {
+    "ack": "0x830cfaba09eca851f5e42146a962e071a5de240a8c42a9bdfa60eea15f92da3f",
+    "t": 1793715606.7155206
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 231,
+    "hash": "0x471ac8ac9ab28b6986979d2b30ae263ca59b55bca9467c6a4b500b3a2e95faa8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 231,
+    "hash": "0x471ac8ac9ab28b6986979d2b30ae263ca59b55bca9467c6a4b500b3a2e95faa8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 231,
+    "hash": "0x471ac8ac9ab28b6986979d2b30ae263ca59b55bca9467c6a4b500b3a2e95faa8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 231,
+    "hash": "0x471ac8ac9ab28b6986979d2b30ae263ca59b55bca9467c6a4b500b3a2e95faa8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 4,
+   "8544": 4,
+   "8543": 4,
+   "8542": 4
+  }
+ },
+ {
+  "trial": 4,
+  "sent_to": [
+   0,
+   2
+  ],
+  "nonce": 4,
+  "acks": {
+   "B": {
+    "ack": "0xc72807b6fed2640f83132aeee36171536126103b3e37dac86ca6b5a2e208ba13",
+    "t": 1793715627.160169
+   },
+   "A": {
+    "ack": "0xf70e8ad75860165b15726c908b9c9d0889c85e063f1be14eb3c3f9d1e7ed3123",
+    "t": 1793715627.174194
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 269,
+    "hash": "0x277107581d1b5905e78405f2c777c6d575b37ba7ad298f7b9bba25ee01586ac3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 269,
+    "hash": "0x277107581d1b5905e78405f2c777c6d575b37ba7ad298f7b9bba25ee01586ac3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 269,
+    "hash": "0x277107581d1b5905e78405f2c777c6d575b37ba7ad298f7b9bba25ee01586ac3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 269,
+    "hash": "0x277107581d1b5905e78405f2c777c6d575b37ba7ad298f7b9bba25ee01586ac3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 5,
+   "8544": 5,
+   "8543": 5,
+   "8542": 5
+  }
+ },
+ {
+  "trial": 5,
+  "sent_to": [
+   1,
+   3
+  ],
+  "nonce": 5,
+  "acks": {
+   "A": {
+    "ack": "0x64fb0d7d791a6064088577435f158ed44d82f81d0ebf535c09c7cf03b3debfed",
+    "t": 1793715647.5495872
+   },
+   "B": {
+    "ack": "0xd123ce20849b6b893bd786a7a6104a760eaade4f5eb10372d29b70177c3ab598",
+    "t": 1793715647.550819
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 306,
+    "hash": "0x111c3cef79e3cecd49e7959c1c7188bfc9b97fe8546c323e371e62d0382d3ca6",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 306,
+    "hash": "0x111c3cef79e3cecd49e7959c1c7188bfc9b97fe8546c323e371e62d0382d3ca6",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 306,
+    "hash": "0x111c3cef79e3cecd49e7959c1c7188bfc9b97fe8546c323e371e62d0382d3ca6",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 306,
+    "hash": "0x111c3cef79e3cecd49e7959c1c7188bfc9b97fe8546c323e371e62d0382d3ca6",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 6,
+   "8544": 6,
+   "8543": 6,
+   "8542": 6
+  }
+ },
+ {
+  "trial": 6,
+  "sent_to": [
+   2,
+   0
+  ],
+  "nonce": 6,
+  "acks": {
+   "A": {
+    "ack": "0x4d0b8c2c6823c3c1bbd8cbfbd4b12f62c59e122714a2d8317786352c3e75490b",
+    "t": 1793715667.9606638
+   },
+   "B": {
+    "ack": "0x8c2b4ec50b1e7a019443f0d86ecf53dcaa9e3bec0a5b148255c72b6afcfd0020",
+    "t": 1793715667.9651482
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 343,
+    "hash": "0xafa9a8ca93164351a8b1bf29c68126cbcd22f4c432fc27541e75a61007c98ae1",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 343,
+    "hash": "0xafa9a8ca93164351a8b1bf29c68126cbcd22f4c432fc27541e75a61007c98ae1",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 343,
+    "hash": "0xafa9a8ca93164351a8b1bf29c68126cbcd22f4c432fc27541e75a61007c98ae1",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 343,
+    "hash": "0xafa9a8ca93164351a8b1bf29c68126cbcd22f4c432fc27541e75a61007c98ae1",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 7,
+   "8544": 7,
+   "8543": 7,
+   "8542": 7
+  }
+ },
+ {
+  "trial": 7,
+  "sent_to": [
+   3,
+   1
+  ],
+  "nonce": 7,
+  "acks": {
+   "B": {
+    "ack": "0xe2a9be5aeb1aef5b25522acc99aac0b270728e6e59d0b24e005b32913972a69d",
+    "t": 1793715688.3702352
+   },
+   "A": {
+    "ack": "0x90c594cc7415234de418f2192e5ebd0f7020a4d382b13bfb0d5a42d05e39d9b8",
+    "t": 1793715688.3903298
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 379,
+    "hash": "0x6b1c878fd4ac0590e9f08d4ed462fc0b3c8e52b606769ce5e5f2c3a04174a5ad",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 379,
+    "hash": "0x6b1c878fd4ac0590e9f08d4ed462fc0b3c8e52b606769ce5e5f2c3a04174a5ad",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 379,
+    "hash": "0x6b1c878fd4ac0590e9f08d4ed462fc0b3c8e52b606769ce5e5f2c3a04174a5ad",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 379,
+    "hash": "0x6b1c878fd4ac0590e9f08d4ed462fc0b3c8e52b606769ce5e5f2c3a04174a5ad",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 8,
+   "8544": 8,
+   "8543": 8,
+   "8542": 8
+  }
+ },
+ {
+  "trial": 8,
+  "sent_to": [
+   0,
+   3
+  ],
+  "nonce": 8,
+  "acks": {
+   "B": {
+    "ack": "0x2e1eab686c50dbf870647eb7e4b6b91af42e54c9200c1fad1607fa9fef6bc2f8",
+    "t": 1793715708.8073575
+   },
+   "A": {
+    "ack": "0x9ed5dd469d4aa828c2c525ffbc53203910e2a83489de5fe880f1d78ee0bee28b",
+    "t": 1793715708.8178933
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 420,
+    "hash": "0x42dc03320c7d9a6b1648ab2ee8dab128c1af60c4b9f6effc0aad738b21bcd669",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 420,
+    "hash": "0x42dc03320c7d9a6b1648ab2ee8dab128c1af60c4b9f6effc0aad738b21bcd669",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 420,
+    "hash": "0x42dc03320c7d9a6b1648ab2ee8dab128c1af60c4b9f6effc0aad738b21bcd669",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 420,
+    "hash": "0x42dc03320c7d9a6b1648ab2ee8dab128c1af60c4b9f6effc0aad738b21bcd669",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 9,
+   "8544": 9,
+   "8543": 9,
+   "8542": 9
+  }
+ },
+ {
+  "trial": 9,
+  "sent_to": [
+   1,
+   0
+  ],
+  "nonce": 9,
+  "acks": {
+   "A": {
+    "ack": "0x721c24c5695ac23abc297d36ae9f9ed582b414cd43537093e92d119c73d921ea",
+    "t": 1793715729.1462958
+   },
+   "B": {
+    "ack": "0x5a743244ccc4a7361679a5c867d8769b6073fbe0baa1acccde4e2769b0dd37c0",
+    "t": 1793715729.1579032
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 459,
+    "hash": "0x4b0de1437f198c26ad4c539051983f3c4418c1a0c0d25ab43ffa0c3f71fda488",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 459,
+    "hash": "0x4b0de1437f198c26ad4c539051983f3c4418c1a0c0d25ab43ffa0c3f71fda488",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 459,
+    "hash": "0x4b0de1437f198c26ad4c539051983f3c4418c1a0c0d25ab43ffa0c3f71fda488",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 459,
+    "hash": "0x4b0de1437f198c26ad4c539051983f3c4418c1a0c0d25ab43ffa0c3f71fda488",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 10,
+   "8544": 10,
+   "8543": 10,
+   "8542": 10
+  }
+ },
+ {
+  "trial": 10,
+  "sent_to": [
+   2,
+   1
+  ],
+  "nonce": 10,
+  "acks": {
+   "A": {
+    "ack": "0xb6d6c555663671e90c9d4f91b3ce62b57fd3ab7ef4112601f08e5e70fffc87df",
+    "t": 1793715749.5872386
+   },
+   "B": {
+    "ack": "0x0b343c8952bc748ca3e73bf729e523afea1ea00d08fe297a8a21d9ff5810bdf9",
+    "t": 1793715749.588751
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 500,
+    "hash": "0x9b389ef3b838bb7f37423868031d5321c9116e1fdc86498cf5e54a485b376c9c",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 500,
+    "hash": "0x9b389ef3b838bb7f37423868031d5321c9116e1fdc86498cf5e54a485b376c9c",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 500,
+    "hash": "0x9b389ef3b838bb7f37423868031d5321c9116e1fdc86498cf5e54a485b376c9c",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 500,
+    "hash": "0x9b389ef3b838bb7f37423868031d5321c9116e1fdc86498cf5e54a485b376c9c",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 11,
+   "8544": 11,
+   "8543": 11,
+   "8542": 11
+  }
+ },
+ {
+  "trial": 11,
+  "sent_to": [
+   3,
+   2
+  ],
+  "nonce": 11,
+  "acks": {
+   "A": {
+    "ack": "0x66b3cce3ea4710d22097f79f0674fdd525470570329353cebea1cfd3b186cc3a",
+    "t": 1793715769.9640656
+   },
+   "B": {
+    "ack": "0x78c707860e708a6171d06323e4f203019b764dabe5f7609ab6dd80157b29f607",
+    "t": 1793715769.9734747
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 537,
+    "hash": "0x955ececdbd2ee2c5abaf87ac6d96acd01d73d336583443bc7898d125b7445d51",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 537,
+    "hash": "0x955ececdbd2ee2c5abaf87ac6d96acd01d73d336583443bc7898d125b7445d51",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 537,
+    "hash": "0x955ececdbd2ee2c5abaf87ac6d96acd01d73d336583443bc7898d125b7445d51",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 537,
+    "hash": "0x955ececdbd2ee2c5abaf87ac6d96acd01d73d336583443bc7898d125b7445d51",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 12,
+   "8544": 12,
+   "8543": 12,
+   "8542": 12
+  }
+ },
+ {
+  "trial": 12,
+  "sent_to": [
+   0,
+   1
+  ],
+  "nonce": 12,
+  "acks": {
+   "A": {
+    "ack": "0x5d75f2c44dda8842976b90fc5a8a9691bfa2064e07e7e6e90a4e5885d6c69011",
+    "t": 1793715790.487455
+   },
+   "B": {
+    "ack": "0x3cefdaaec93dc7689d387cd9844953e20cfdd1476c84546b3299135f57c90530",
+    "t": 1793715790.4886076
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 575,
+    "hash": "0x97448fab0c7553f27c3806913e8a54bcba6b2e588c18acfed8a0b892815d5b68",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 575,
+    "hash": "0x97448fab0c7553f27c3806913e8a54bcba6b2e588c18acfed8a0b892815d5b68",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 575,
+    "hash": "0x97448fab0c7553f27c3806913e8a54bcba6b2e588c18acfed8a0b892815d5b68",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 575,
+    "hash": "0x97448fab0c7553f27c3806913e8a54bcba6b2e588c18acfed8a0b892815d5b68",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 13,
+   "8544": 13,
+   "8543": 13,
+   "8542": 13
+  }
+ },
+ {
+  "trial": 13,
+  "sent_to": [
+   1,
+   2
+  ],
+  "nonce": 13,
+  "acks": {
+   "A": {
+    "ack": "0xeed6d9ca32f974431e664cf4e0c1c76df67198346ae625af3585ee1fdfc21786",
+    "t": 1793715810.8435795
+   },
+   "B": {
+    "ack": "0xd2d1ae2f41fe7a10d8202e1fd96b88f84270151cafc95549bcded90ab5560114",
+    "t": 1793715810.858246
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 611,
+    "hash": "0x9bfada787a2ac94e08b42dbd3ce77b45039bbf3f6df7a1c53fb229f0501c4480",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 611,
+    "hash": "0x9bfada787a2ac94e08b42dbd3ce77b45039bbf3f6df7a1c53fb229f0501c4480",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 611,
+    "hash": "0x9bfada787a2ac94e08b42dbd3ce77b45039bbf3f6df7a1c53fb229f0501c4480",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 611,
+    "hash": "0x9bfada787a2ac94e08b42dbd3ce77b45039bbf3f6df7a1c53fb229f0501c4480",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 14,
+   "8544": 14,
+   "8543": 14,
+   "8542": 14
+  }
+ },
+ {
+  "trial": 14,
+  "sent_to": [
+   2,
+   3
+  ],
+  "nonce": 14,
+  "acks": {
+   "A": {
+    "ack": "0xec6b337a15c582590040ba1d76eaf880164ffe9706e7a40e9486e36d8648c9f3",
+    "t": 1793715831.1318338
+   },
+   "B": {
+    "ack": "0x71f78f94a1a3430213136914606f1796e2e61eb3d0ddcf342f798de79e3970c6",
+    "t": 1793715831.1403036
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 648,
+    "hash": "0x4448f3b9d658668301b381bd6cf57f88e3d7cc1066434ebb866dfadff41985b0",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 648,
+    "hash": "0x4448f3b9d658668301b381bd6cf57f88e3d7cc1066434ebb866dfadff41985b0",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 648,
+    "hash": "0x4448f3b9d658668301b381bd6cf57f88e3d7cc1066434ebb866dfadff41985b0",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 648,
+    "hash": "0x4448f3b9d658668301b381bd6cf57f88e3d7cc1066434ebb866dfadff41985b0",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 15,
+   "8544": 15,
+   "8543": 15,
+   "8542": 15
+  }
+ },
+ {
+  "trial": 15,
+  "sent_to": [
+   3,
+   0
+  ],
+  "nonce": 15,
+  "acks": {
+   "B": {
+    "ack": "0x2aca884d5b2298019c5d49f74796d8f4a57233d0a64f414e090309acdb57921c",
+    "t": 1793715851.6101637
+   },
+   "A": {
+    "ack": "0x51d65b22390410fceed4a147b2d1c953e5a55be1733690fb1f2defa1bad60f55",
+    "t": 1793715851.6126685
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 686,
+    "hash": "0x64880e1f30210901994bf5e9fd82541d1218d0b561175accc0e6dd9b6b3cc1b8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 686,
+    "hash": "0x64880e1f30210901994bf5e9fd82541d1218d0b561175accc0e6dd9b6b3cc1b8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 686,
+    "hash": "0x64880e1f30210901994bf5e9fd82541d1218d0b561175accc0e6dd9b6b3cc1b8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 686,
+    "hash": "0x64880e1f30210901994bf5e9fd82541d1218d0b561175accc0e6dd9b6b3cc1b8",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 16,
+   "8544": 16,
+   "8543": 16,
+   "8542": 16
+  }
+ },
+ {
+  "trial": 16,
+  "sent_to": [
+   0,
+   1
+  ],
+  "nonce": 16,
+  "acks": {
+   "B": {
+    "ack": "0x558072d60c2955a1f99badd5eb49e57c45507a493658a5c384e96bd85a63fd61",
+    "t": 1793715872.0359519
+   },
+   "A": {
+    "ack": "0x187ea9398b9bf04534386bb2a11cc5b8f30292e5cc564b1183c074f6cc33f988",
+    "t": 1793715872.0359519
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 721,
+    "hash": "0x93dac8402d1d67de60c290f8bc87594329c7644f61ec8d9c03089b35cac4c0a3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 721,
+    "hash": "0x93dac8402d1d67de60c290f8bc87594329c7644f61ec8d9c03089b35cac4c0a3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 721,
+    "hash": "0x93dac8402d1d67de60c290f8bc87594329c7644f61ec8d9c03089b35cac4c0a3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 721,
+    "hash": "0x93dac8402d1d67de60c290f8bc87594329c7644f61ec8d9c03089b35cac4c0a3",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 17,
+   "8544": 17,
+   "8543": 17,
+   "8542": 17
+  }
+ },
+ {
+  "trial": 17,
+  "sent_to": [
+   1,
+   2
+  ],
+  "nonce": 17,
+  "acks": {
+   "A": {
+    "ack": "0xb02535f04af7077749221b336675629c96dcbe42eedc5d557a02cd4dec40b89a",
+    "t": 1793715892.3970983
+   },
+   "B": {
+    "ack": "0x243d8434216ddc2c028c3f62fdf3b7ffd68c938109c3fcbcd49078860d924bd8",
+    "t": 1793715892.4012973
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 761,
+    "hash": "0x1309fb2025fd38b367b2d69c890ddc671045a55b358a4be939c69aa99cea7178",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 761,
+    "hash": "0x1309fb2025fd38b367b2d69c890ddc671045a55b358a4be939c69aa99cea7178",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 761,
+    "hash": "0x1309fb2025fd38b367b2d69c890ddc671045a55b358a4be939c69aa99cea7178",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 761,
+    "hash": "0x1309fb2025fd38b367b2d69c890ddc671045a55b358a4be939c69aa99cea7178",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 18,
+   "8544": 18,
+   "8543": 18,
+   "8542": 18
+  }
+ },
+ {
+  "trial": 18,
+  "sent_to": [
+   2,
+   3
+  ],
+  "nonce": 18,
+  "acks": {
+   "B": {
+    "ack": "0x0241e2e1eb47a555eb2828c48dd9a004ec71c5bdd08d464852b2b48b5b517f05",
+    "t": 1793715912.819919
+   },
+   "A": {
+    "ack": "0x26d1e876986ea252f510dd53813fde0a7b238db0216a635108e48de14ac932ab",
+    "t": 1793715912.8268561
+   }
+  },
+  "winner": "A",
+  "receipts_A": {
+   "8545": {
+    "block": 801,
+    "hash": "0x4542a1fa2dab82a18f234043a8c610e70dc0dfc963c79724706970c2e34a7fdf",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 801,
+    "hash": "0x4542a1fa2dab82a18f234043a8c610e70dc0dfc963c79724706970c2e34a7fdf",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 801,
+    "hash": "0x4542a1fa2dab82a18f234043a8c610e70dc0dfc963c79724706970c2e34a7fdf",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 801,
+    "hash": "0x4542a1fa2dab82a18f234043a8c610e70dc0dfc963c79724706970c2e34a7fdf",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "receipts_B": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 19,
+   "8544": 19,
+   "8543": 19,
+   "8542": 19
+  }
+ },
+ {
+  "trial": 19,
+  "sent_to": [
+   3,
+   0
+  ],
+  "nonce": 19,
+  "acks": {
+   "A": {
+    "ack": "0xdf37d32b56a07e93f2ad143be20bdbb818cccfdd78b84733e86ab1b5689d8825",
+    "t": 1793715933.2320795
+   },
+   "B": {
+    "ack": "0x7042f3872c6c03e436e787b121966258a5030792d34b0f9651d8d9c8e56f71e0",
+    "t": 1793715933.236359
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 841,
+    "hash": "0xf246a2719e6729bf50a92c13c650534f205d3941fc2df586763efb9db8105a31",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 841,
+    "hash": "0xf246a2719e6729bf50a92c13c650534f205d3941fc2df586763efb9db8105a31",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 841,
+    "hash": "0xf246a2719e6729bf50a92c13c650534f205d3941fc2df586763efb9db8105a31",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 841,
+    "hash": "0xf246a2719e6729bf50a92c13c650534f205d3941fc2df586763efb9db8105a31",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 20,
+   "8544": 20,
+   "8543": 20,
+   "8542": 20
+  }
+ },
+ {
+  "trial": 20,
+  "sent_to": [
+   0,
+   2
+  ],
+  "nonce": 20,
+  "acks": {
+   "B": {
+    "ack": "0xb37dc54c77c6b1e4935cdc6ff02ef42d73a4581de8ce161d76bf8a8cc92a2062",
+    "t": 1793715953.6939313
+   },
+   "A": {
+    "ack": "0xbf193c656403bf5574d302bf027a0c01ba8941b79ebb91cbb89a36e44ad006ad",
+    "t": 1793715953.6939313
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 879,
+    "hash": "0x878d636f58c9243913e4540b23b9c53eb157eb23f8eaaa81810051c2fb4cd67d",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 879,
+    "hash": "0x878d636f58c9243913e4540b23b9c53eb157eb23f8eaaa81810051c2fb4cd67d",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 879,
+    "hash": "0x878d636f58c9243913e4540b23b9c53eb157eb23f8eaaa81810051c2fb4cd67d",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 879,
+    "hash": "0x878d636f58c9243913e4540b23b9c53eb157eb23f8eaaa81810051c2fb4cd67d",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 21,
+   "8544": 21,
+   "8543": 21,
+   "8542": 21
+  }
+ },
+ {
+  "trial": 21,
+  "sent_to": [
+   1,
+   3
+  ],
+  "nonce": 21,
+  "acks": {
+   "B": {
+    "ack": "0x5be30adacb0e69bd52033d6842639bb7f08f7ff4fc2bfef0b65f5df96cc0d63b",
+    "t": 1793715974.0989254
+   },
+   "A": {
+    "ack": "0xed1981315e72784275e782e434f425757d36e917f25b8031f4a74ee63c7ae8bc",
+    "t": 1793715974.1024103
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 917,
+    "hash": "0x40130bdf2bbc2b205a3d03ab6562193d4640064bdef6fd9d0d082fcdb94b8ab9",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 917,
+    "hash": "0x40130bdf2bbc2b205a3d03ab6562193d4640064bdef6fd9d0d082fcdb94b8ab9",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 917,
+    "hash": "0x40130bdf2bbc2b205a3d03ab6562193d4640064bdef6fd9d0d082fcdb94b8ab9",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 917,
+    "hash": "0x40130bdf2bbc2b205a3d03ab6562193d4640064bdef6fd9d0d082fcdb94b8ab9",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 22,
+   "8544": 22,
+   "8543": 22,
+   "8542": 22
+  }
+ },
+ {
+  "trial": 22,
+  "sent_to": [
+   2,
+   0
+  ],
+  "nonce": 22,
+  "acks": {
+   "A": {
+    "ack": "0xf09c9bb97074f92fb4977ce5f4bfe3c44660657b1da8969aafb1b08c796970f3",
+    "t": 1793715994.4483604
+   },
+   "B": {
+    "ack": "0x63dc49d50e6b467c3a46ca4485f29eb84b89d576cf9f96f0b92d0bd610e43af4",
+    "t": 1793715994.44868
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 954,
+    "hash": "0x28c6a759e87d77a4cec92c84a14335e22968b4c258278dda8ac6b0289795e1ca",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 954,
+    "hash": "0x28c6a759e87d77a4cec92c84a14335e22968b4c258278dda8ac6b0289795e1ca",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 954,
+    "hash": "0x28c6a759e87d77a4cec92c84a14335e22968b4c258278dda8ac6b0289795e1ca",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 954,
+    "hash": "0x28c6a759e87d77a4cec92c84a14335e22968b4c258278dda8ac6b0289795e1ca",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 23,
+   "8544": 23,
+   "8543": 23,
+   "8542": 23
+  }
+ },
+ {
+  "trial": 23,
+  "sent_to": [
+   3,
+   1
+  ],
+  "nonce": 23,
+  "acks": {
+   "A": {
+    "ack": "0x33dbe7ddcd324c9d1a2b05577b830f703eedcb7d3f83839849528a6192dcf8ec",
+    "t": 1793716014.8002489
+   },
+   "B": {
+    "ack": "0x2639f8273a81f583a06e52edaacd81220cff728b9358a3713d56157057099bf7",
+    "t": 1793716014.8232415
+   }
+  },
+  "winner": "B",
+  "receipts_A": {
+   "8545": null,
+   "8544": null,
+   "8543": null,
+   "8542": null
+  },
+  "receipts_B": {
+   "8545": {
+    "block": 991,
+    "hash": "0x0d6fe1215fd61bf7627e8607c7383835177a6f59a7199e35f9a7dfa7bdc0874b",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8544": {
+    "block": 991,
+    "hash": "0x0d6fe1215fd61bf7627e8607c7383835177a6f59a7199e35f9a7dfa7bdc0874b",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8543": {
+    "block": 991,
+    "hash": "0x0d6fe1215fd61bf7627e8607c7383835177a6f59a7199e35f9a7dfa7bdc0874b",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   },
+   "8542": {
+    "block": 991,
+    "hash": "0x0d6fe1215fd61bf7627e8607c7383835177a6f59a7199e35f9a7dfa7bdc0874b",
+    "status": 1,
+    "gas": 21000,
+    "price": 48000000000
+   }
+  },
+  "nodes_with_winner_receipt": 4,
+  "same_block_hash": true,
+  "balance_delta_ok": {
+   "8545": true,
+   "8544": true,
+   "8543": true,
+   "8542": true
+  },
+  "nonce_after": {
+   "8545": 24,
+   "8544": 24,
+   "8543": 24,
+   "8542": 24
+  }
+ }
+]

@@ -1,0 +1,98 @@
+[
+ {
+  "label": "R_kill_10s_run1",
+  "how": "kill",
+  "downtime_s": 10,
+  "height_at_stop": 340,
+  "height_at_restart": 358,
+  "ref_height": 576,
+  "victim_height": 576,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   577,
+   576
+  ],
+  "verdict": "match",
+  "log": "0"
+ },
+ {
+  "label": "R_kill_120s_run1",
+  "how": "kill",
+  "downtime_s": 120,
+  "height_at_stop": 344,
+  "height_at_restart": 551,
+  "ref_height": 770,
+  "victim_height": 770,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   770,
+   770
+  ],
+  "verdict": "match",
+  "log": "0"
+ },
+ {
+  "label": "R_term_10s_run1",
+  "how": "term",
+  "downtime_s": 10,
+  "height_at_stop": 343,
+  "height_at_restart": 362,
+  "ref_height": 586,
+  "victim_height": 586,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   586,
+   586
+  ],
+  "verdict": "match",
+  "log": "0"
+ },
+ {
+  "label": "R_kill_10s_run2",
+  "how": "kill",
+  "downtime_s": 10,
+  "height_at_stop": 343,
+  "height_at_restart": 353,
+  "ref_height": 553,
+  "victim_height": 553,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   554,
+   554
+  ],
+  "verdict": "match",
+  "log": "0"
+ },
+ {
+  "label": "R_kill_120s_run2",
+  "how": "kill",
+  "downtime_s": 120,
+  "height_at_stop": 348,
+  "height_at_restart": 461,
+  "ref_height": 675,
+  "victim_height": 675,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   675,
+   675
+  ],
+  "verdict": "match",
+  "log": "0"
+ },
+ {
+  "label": "R_term_10s_run2",
+  "how": "term",
+  "downtime_s": 10,
+  "height_at_stop": 341,
+  "height_at_restart": 347,
+  "ref_height": 567,
+  "victim_height": 567,
+  "same_hash_at_common_height": true,
+  "finalized": [
+   567,
+   567
+  ],
+  "verdict": "match",
+  "log": "0"
+ }
+]

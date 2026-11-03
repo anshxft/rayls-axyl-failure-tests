@@ -1,0 +1,30 @@
+Rayls chain 72957  head block 13,776,343  epoch 187  (2026-11-03 14:58:16 UTC)
+
+=== 1. Epoch records since launch ===
+epochs: 187  distinct committees: 2  committee sizes: [7, 8]
+committee size changed at epoch(s): [172]  (7 -> 8 validators)
+certificates signed by the whole committee: 71 of 187
+certificates with exactly the quorum (floor(2n/3)+1): 45  below quorum: 0
+missed signatures by committee index: {0: 41, 1: 27, 2: 12, 3: 13, 4: 12, 5: 34, 6: 20, 7: 2}
+blocks per epoch (24 h): min 33,387  median 66,469  max 124,650
+=> average block time 1.235 s  (min 0.693 s, max 2.588 s)
+last 5 epochs blocks: [64180, 64148, 64171, 64336, 64235]
+
+=== 2. Live window: 60 s, polling latest/safe/finalized every ~250 ms ===
+samples: 145  max (latest - safe): 0  max (latest - finalized): 0
+new head observed 45 times; median gap 1.25 s; mean gap 1.33 s; blocks per update [(1, 44)]
+
+=== 3. Last 3,000 blocks (2026-11-03 13:53:29 to 2026-11-03 15:00:42) ===
+distinct block authors (coinbase): 8
+  0x080857747a9baa9f53a68a20cd1e13b691641bc7    459 blocks  15.3%
+  0xbbd0b35294fff3981a7aeb2adb14f23f93bf9662    450 blocks  15.0%
+  0x90aed90ede55e7f784523303e12f3457d6337789    440 blocks  14.7%
+  0xc2afe610a7cecc44ef8604fe9421271fe2990fe6    425 blocks  14.2%
+  0x17a9747596427f4960d5c494417ce6bf8b82bafe    422 blocks  14.1%
+  0xfc182245c87ab48b6a10e36fd262790de73707af    399 blocks  13.3%
+  0xeecf1a05b55e27c19d999471376192880aaa78bc    389 blocks  13.0%
+  0xba74449591e403e012351095b566cf15417c2930     16 blocks  0.5%
+empty blocks: 2,965 of 3,000 (98.8%)
+consensus rounds advanced: 5,992 in 4033 s -> 1.49 rounds/s; blocks/s 0.74
+block hashes matching the explorer index: 20/20
+explorer totals: 13,774,469 blocks, 349,326 txs -> 0.025 tx per block
