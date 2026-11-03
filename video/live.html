@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Axyl lab</title>
+<style>
+*{box-sizing:border-box;margin:0}html,body{height:100%;background:#101418;color:#d7dde2;font-family:"Segoe UI",system-ui,sans-serif}
+.mode{display:none;height:100%}body[data-m=lab] #lab,body[data-m=term] #lab{display:flex;flex-direction:column;padding:26px 34px;gap:16px}
+body[data-m=term] #tiles,body[data-m=term] #hdr{display:none}
+#hdr{display:flex;justify-content:space-between;align-items:center;font-size:18px;color:#8d98a2}#hdr b{color:#e8edf1;font-weight:600}
+#clock{display:none;font:600 19px Consolas,monospace;color:#101418;background:#f2b84b;padding:5px 13px;border-radius:6px}
+#tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tile{background:#1a2026;border:2px solid #2b343c;border-radius:10px;padding:14px 18px}.tile .n{font-size:15px;color:#8d98a2}
+.tile .h{font:700 54px/1.15 Consolas,monospace;color:#f1f4f6;font-variant-numeric:tabular-nums}.tile .s{font-size:16px;font-weight:600;color:#55c98a}
+.tile.stall{border-color:#f2b84b}.tile.stall .s{color:#f2b84b}.tile.down{border-color:#e5604d;background:#2a1b1a}.tile.down .s{color:#ff8a78}.tile.down .h{color:#6d5a58}
+#out{flex:1;background:#0b0e11;border:1px solid #2b343c;border-radius:10px;padding:18px 22px;font:20px/1.45 Consolas,"Courier New",monospace;white-space:pre-wrap;overflow:hidden;color:#b9c3cb}
+.p{color:#5aa9f0;font-weight:700}.c{color:#f1f4f6}.cm{color:#6f7b85;font-style:italic}.hl{background:#1f5a3a;box-shadow:0 0 0 2px #55c98a;border-radius:2px;color:#fff}
+.caret{display:inline-block;width:10px;height:21px;background:#b9c3cb;vertical-align:-4px}
+.card{background:#fbfaf7;color:#14181c;padding:0 130px;flex-direction:column;justify-content:center}body[data-m=title] #title,body[data-m=end] #end{display:flex}
+.card h1{font-size:62px;line-height:1.14;font-weight:700;letter-spacing:-.015em}.card p{font-size:27px;color:#555b60;margin-top:26px}.card ul{margin-top:26px;padding-left:26px;font-size:26px;line-height:1.55}.card .url{margin-top:32px;font:600 25px Consolas,monospace;color:#2a78d6}
+body[data-m=img]{background:#fbfaf7}body[data-m=img] #img{display:flex;align-items:center;justify-content:center}#img img{width:1440px}
+</style></head><body>
+<div class="mode" id="lab"><div id="hdr"><span id="ttl"><b>Axyl v1.5.1, built from source</b> &nbsp;·&nbsp; 4 validators on one laptop &nbsp;·&nbsp; quorum 3 of 4</span><span id="clock"></span></div>
+<div id="tiles"></div><div id="out"></div></div>
+<div class="mode card" id="title"><h1>If Rayls validators fail mid-payment, does the payment settle, stall, or fork?</h1><p>A hands-on test of Axyl, the Rayls consensus client. Real crashes, real payments, raw data published.</p></div>
+<div class="mode card" id="end"><h1>It stalls. It does not fork.</h1><ul><li>One of four down: payments kept settling</li><li>Two of four down: chain stopped, payments waited, then all settled</li><li>A returned hash did not mean settled</li></ul><p>One laptop, crashes only, small samples. Mainnet payments not tested.</p><div class="url">github.com/anshxft/rayls-axyl-failure-tests</div></div>
+<div class="mode" id="img"><img id="im" alt=""></div>
+<script>
+const out=document.getElementById('out'),esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const [m,arg]=(location.hash.slice(1)||'lab').split('=');document.body.dataset.m=m;if(m==='img')document.getElementById('im').src='../'+arg;
+document.getElementById('tiles').innerHTML=[0,1,2,3].map(i=>`<div class="tile" id="t${i}"><div class="n">validator ${i}</div><div class="h">-</div><div class="s">starting</div></div>`).join('');
+let caret,clockT;
+function line(html){const d=document.createElement('div');d.innerHTML=html;out.appendChild(d);out.scrollTop=out.scrollHeight;return d}
+window.T={
+ tile(i,h,state,ago){const t=document.getElementById('t'+i);t.className='tile '+state;if(h!=null)t.querySelector('.h').textContent=h;t.querySelector('.s').textContent=state==='down'?'CRASHED':state==='stall'?`no new block for ${ago} s`:'producing blocks'},
+ clock(on,sped){const c=document.getElementById('clock');clearInterval(clockT);if(!on){return}c.style.display='block';const t0=Date.now();const f=()=>{const s=Math.floor((Date.now()-t0)/1000);c.textContent=`real time ${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`+(sped?'  (video sped up)':'')};f();clockT=setInterval(f,250)},
+ clear(){out.innerHTML='';document.getElementById('clock').style.display='none'},
+ prompt(){caret?.remove();const d=line('<span class="p">&gt; </span><span class="c"></span>');caret=document.createElement('span');caret.className='caret';d.appendChild(caret);return d.querySelector('.c')},
+ async type(cmd,ms=24){const c=this.prompt(),k=cmd.indexOf('   #');for(let i=0;i<cmd.length;i++){if(i===k){const s=document.createElement('span');s.className='cm';c.after(s);s.textContent=cmd.slice(i);break}c.textContent+=cmd[i];await new Promise(r=>setTimeout(r,ms))}},
+ print(text){caret?.remove();for(const l of text.replace(/\s+$/,'').split('\n'))line(esc(l)||' ')},
+ hl(sub){for(const d of [...out.children].reverse())if(d.textContent.includes(sub)&&!d.querySelector('.hl')){d.innerHTML=d.innerHTML.replace(esc(sub),'<span class="hl">'+esc(sub)+'</span>');return}},
+};
+</script></body></html>

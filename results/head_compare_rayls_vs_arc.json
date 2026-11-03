@@ -1,0 +1,17 @@
+{
+ "when": 1793719221.6577423,
+ "rayls": {
+  "rtt_median_s": 0.389,
+  "head_gap_median_s": 0.485,
+  "blocks": 154,
+  "blocks_per_s": 1.72,
+  "chain_ts_span_s": 89
+ },
+ "arc": {
+  "rtt_median_s": 0.477,
+  "head_gap_median_s": 0.544,
+  "blocks": 176,
+  "blocks_per_s": 1.961,
+  "chain_ts_span_s": 89
+ }
+}

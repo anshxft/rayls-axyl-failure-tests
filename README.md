@@ -31,9 +31,11 @@ Requires Linux or WSL2, Rust, and [Foundry](https://getfoundry.sh) `cast`. The e
 | `repro.py` | Restart a validator after 10, 120 or 600 s |
 | `testnet.py G_testnet_run1 50 2` | G: real testnet payments (needs faucet tokens) |
 | `mainnet/verify_axyl.py` | Read-only mainnet measurements |
+| `demo.py` | The live demos shown in the video. Writes nothing to `results/` |
+| `video/` | Scripts that recorded and assembled the video |
 
 Scripts run from Windows and call into WSL. Paths may need adjusting elsewhere.
 
 ## Layout
 
-`results/` raw data for every counted run · `mainnet/` read-only chain data · `docs_failures/` discarded runs and why
+`results/` raw data for every counted run · `mainnet/` read-only chain data · `figures/` charts built from `results/` · `docs_failures/` discarded runs and why

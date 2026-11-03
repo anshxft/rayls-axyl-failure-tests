@@ -14,6 +14,8 @@ Local network: Axyl v1.5.1 built from source, 4 validators on one laptop (WSL2),
 
 Public Rayls Testnet: 150/150 payments settled, median 2.44 s from submit to receipt, 0 under 1 s. RPC round trip was about 0.40 s, so about 2.05 s after subtracting one round trip. New blocks appeared every 0.48 s (median).
 
+Read-only comparison, Rayls Testnet and Arc Testnet polled at the same time from the same machine for 90 s (`results/head_compare_rayls_vs_arc.json`): new-head gap median 0.485 s and 0.544 s, RPC round trip median 0.389 s and 0.477 s. No payments were sent on Arc, so its submit-to-receipt time is unmeasured and the 2.44 s above has no Arc equivalent here.
+
 Mainnet, read-only: finalized equalled latest in every sample. Average block time 1.235 s over complete epochs. See `mainnet/`.
 
 ## What it does not show
